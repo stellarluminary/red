@@ -40,6 +40,8 @@ int main() {
                 "options for the day. Before deciding, you really ought to get to "
                 "the toilet to relieve yourself."};
             std::cout << text << "\n";
+
+            // CODE TO CONTINUE THIS BRANCH HERE
         }
         else if (choice == 3)
         {
@@ -48,6 +50,8 @@ int main() {
                 "you should rug up before heading out. You really ought to get to the"
                 " toilet to relieve yourself, too." };
             std::cout << text << "\n";
+
+            // CODE TO CONTINUE THIS BRANCH HERE
         }
         else if (choice == 0)
         {
