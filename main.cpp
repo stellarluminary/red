@@ -15,12 +15,45 @@ std::string intro { "The rising sun slowly brightens your bedroom, lulling you f
     "1: Push open the ajar door.\n"
     "2: Open the first closed door.\n"
     "3: Open the second closed door.\n"
+    "0: To quit the game.\n"
 };
 
 int main() {
 
     while (gameRunning) {
         std::cout << intro;
+        int choice {};
+        std::cin >> choice;
+
+        if (choice == 1) 
+        {
+            std::string text { "You push open the ajar door and see a toilet, sink, and"
+                " bathtub. You walk to the toilet, sitting down in a tired, just-woken-up "
+                "heap, and go about your business. Now to get dressed." };
+            std::cout << text << "\n";
+
+            // CODE TO CONTINUE THIS BRANCH HERE
+        }
+        else if (choice == 2)
+        {
+            std::string text { "You open the first door and assess your clothing "
+                "options for the day. Before deciding, you really ought to get to "
+                "the toilet to relieve yourself."};
+            std::cout << text << "\n";
+        }
+        else if (choice == 3)
+        {
+            std::string text { "You open the second closed door, and a frigid breeze"
+                " from outside whips around and up your pajamas, chilling you. Maybe "
+                "you should rug up before heading out. You really ought to get to the"
+                " toilet to relieve yourself, too." };
+            std::cout << text << "\n";
+        }
+        else if (choice == 0)
+        {
+            std::cout << "Thank you for playing!\n";
+        }
+
         gameRunning = false;
     }
 
