@@ -20,11 +20,12 @@ std::string intro { "The rising sun slowly brightens your bedroom, lulling you f
 };
 
 int main() {
+    std::cout << intro;
+    int choice {};
+
     // bool validInput { true };
 
     while (validInput) {
-        std::cout << intro;
-        int choice {};
         std::cin >> choice;
 
         if (choice == 1) 
@@ -35,6 +36,8 @@ int main() {
             std::cout << morning << "\n\n";
 
             // CODE TO CONTINUE THIS BRANCH HERE
+            validInput = false;
+
         }
         else if (choice == 2)
         {
@@ -78,11 +81,15 @@ int main() {
             };
             
             makeChoice(ajarDoor, closedDoor);
+            validInput = false;
+
 
         }
         else if (choice == 3)
         {
             // CODE TO CONTINUE THIS BRANCH HERE
+            validInput = false;
+
         }
         else
         {
@@ -90,9 +97,9 @@ int main() {
             "corresponding to what you want to do.\n\n"};
             std::cout << invalid_choice;
         }
-    
+    }
 
-        std::string outside { "Despite the chill, the air is crisp and clear. You breathe "
+    std::string outside { "Despite the chill, the air is crisp and clear. You breathe "
             "deeply, savoring the fresh scent of nature around you. In the distance, you"
             " hear songbirds going about their merry morning gossip. A squirrel, spooked"
             " by your appearance, dashes across the path and scurries up a tree. Soon, "
@@ -109,14 +116,19 @@ int main() {
             "3: The sunny, flat path straight ahead.\n\n"
         };
 
-        std::cout << outside;
+    std::cout << outside;
+    bool whileTrueVar2 { true };
+    int choice2 {};
 
-        int choice2 {};
+    while (whileTrueVar2) 
+    {
         std::cin >> choice2;
         
         if (choice2 == 1)
         {
             // Uphill path
+            whileTrueVar2 = false;
+
         }
         else if (choice2 == 2)
         {
@@ -353,20 +365,21 @@ int main() {
                 " eat our lunch?\" they all say in unison.\n\n"    
             };
             makeChoice(callPolice, dontCallPolice);
+            whileTrueVar2 = false;
+
         }
         else if (choice2 == 3)
         {
             // Downhill path
+            whileTrueVar2 = false;
         }
         else
         {
             std::string invalid_choice { "You can't be a lazy daisy all day. Enter "
                 "1, 2, or 3, corresponding to what you want to do.\n\n" };
+            std::cout << invalid_choice;
             // cycle back through choices
         }
-
-
-        validInput = false;
     }
 
     return 0;
