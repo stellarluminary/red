@@ -1,7 +1,8 @@
 #include <iostream>
 #include <string>
+#include "makeChoice.h"
 
-bool gameRunning {true};
+bool validInput {true};
 
 std::string intro { "The rising sun slowly brightens your bedroom, lulling you from" 
     "your dreams. Reluctantly, you pull yourself away from your slumber, opening your " 
@@ -19,110 +20,96 @@ std::string intro { "The rising sun slowly brightens your bedroom, lulling you f
 };
 
 int main() {
+    // bool validInput { true };
 
-    while (gameRunning) {
+    while (validInput) {
         std::cout << intro;
         int choice {};
         std::cin >> choice;
 
         if (choice == 1) 
         {
-            std::string text { "You push open the ajar door and see a toilet, sink, and"
+            std::string morning { "You push open the ajar door and see a toilet, sink, and"
                 " bathtub. You walk to the toilet, sitting down in a tired, just-woken-up "
                 "heap, and go about your business. Now to get dressed." };
-            std::cout << text << "\n\n";
+            std::cout << morning << "\n\n";
 
             // CODE TO CONTINUE THIS BRANCH HERE
         }
         else if (choice == 2)
         {
-            std::string text { "You open the first door and assess your clothing "
+            std::string firstDoor { "You open the first door and assess your clothing "
                 "options for the day. Before deciding, you really ought to get to "
-                "the toilet to relieve yourself.\n\n"};
-            std::cout << text;
+                "the toilet to relieve yourself.\n\n"
+                "1: Push open the ajar door.\n"
+                "2: Open the second closed door.\n\n"
 
-            std::cout << "1: Push open the ajar door.\n";
-            std::cout << "2: Open the second closed door.\n\n";
+            };
+            std::cout << firstDoor;            
+
+            std::string ajarDoor { "You push open the ajar door and see a toilet,"
+                " sink, and bathtub. You walk to the toilet, sitting down in a"
+                " tired, just-woken-up heap, and go about your business. Now to"
+                " get dressed..\n\n"
+                "You open the second closed door, and a frigid"
+                " breeze from outside whips around and up your pajamas, chilling"
+                " you. Heading back to the closet, you put on a pair of slacks "
+                "and a knitted sweater. You grab a warm woolen cloak and wrap it"
+                " around your shoulders, pulling up the hood to shield your ears"
+                " from the wind. You grab the basket from the stool in the corner"
+                " and head outside.\n\n"
+            };
+
+            std::string closedDoor { "You open the second closed door, and a frigid "
+                "breeze from outside whips around and up your pajamas, chilling"
+                " you. Maybe you should rug up before heading out. You need to"
+                " clean yourself up, too, as you've just wet yourself.\n\n" 
+                "In a fit of disgust, you push open the ajar door so"
+                " hard that it swings wildly, slamming into the wall. Cringing at the"
+                " sound, you peel off your wet pajamas, tossing them into the sink. "
+                "You start drawing a bath while you hand-wash and hang the sodden "
+                "heap of clothes. Slipping into the warm bath, you luxuriate for a "
+                "few minutes before you remember the basket. You get to work scrubbing"
+                " clean before getting out and drying off. Heading back to the closet,"
+                " you put on a pair of slacks and a knitted sweater. Since it's cold "
+                "outside, you grab a warm woolen cloak and wrap it around your "
+                "shoulders, pulling up the hood to shield your ears from the wind. "
+                "You grab the basket from the stool in the corner and head outside.\n\n"
+            };
             
+            makeChoice(ajarDoor, closedDoor);
 
-            bool cycleThroughChoices { true };
-            while (cycleThroughChoices)
-            {
-                int choice { };
-                std::cin >> choice;
-                if (choice == 1) 
-                {
-                    std::string text { "You push open the ajar door and see a toilet,"
-                        " sink, and bathtub. You walk to the toilet, sitting down in a"
-                        " tired, just-woken-up heap, and go about your business. Now to"
-                        " get dressed..\n\n"};
-                    std::cout << text;
-
-                    std::string text2 { "You open the second closed door, and a frigid"
-                        " breeze from outside whips around and up your pajamas, chilling"
-                        " you. Heading back to the closet, you put on a pair of slacks "
-                        "and a knitted sweater. You grab a warm woolen cloak and wrap it"
-                        " around your shoulders, pulling up the hood to shield your ears"
-                        " from the wind. You grab the basket from the stool in the corner"
-                        " and head outside.\n\n" };
-                    cycleThroughChoices = false;
-                }
-                else if (choice == 2)
-                {
-                    std::string text { "You open the second closed door, and a frigid "
-                        "breeze from outside whips around and up your pajamas, chilling"
-                        " you. Maybe you should rug up before heading out. You need to"
-                        " clean yourself up, too, as you've just wet yourself.\n\n" };
-                    std::cout << text;
-
-                    std::string text2 { "In a fit of disgust, you push open the ajar door so"
-                        " hard that it swings wildly, slamming into the wall. Cringing at the"
-                        " sound, you peel off your wet pajamas, tossing them into the sink. "
-                        "You start drawing a bath while you hand-wash and hang the sodden "
-                        "heap of clothes. Slipping into the warm bath, you luxuriate for a "
-                        "few minutes before you remember the basket. You get to work scrubbing"
-                        " clean before getting out and drying off. Heading back to the closet,"
-                        " you put on a pair of slacks and a knitted sweater. Since it's cold "
-                        "outside, you grab a warm woolen cloak and wrap it around your "
-                        "shoulders, pulling up the hood to shield your ears from the wind. "
-                        "You grab the basket from the stool in the corner and head outside.\n\n" };
-                    std::cout << text2;
-                    cycleThroughChoices = false;
-                }
-                else
-                {
-                    std::string invalid_choice { "You can't be a lazy daisy all day. Enter 1 or 2, "
-                        "corresponding to what you want to do.\n\n" };
-                    std::cout << invalid_choice; 
-                    ;
-                    // cycle back through choices
-                }
-            }
         }
-        std::string text2 { "Despite the chill, the air is crisp and clear. You breathe "
+        else if (choice == 3)
+        {
+            // CODE TO CONTINUE THIS BRANCH HERE
+        }
+        else
+        {
+            std::string invalid_choice {"You can't be a lazy daisy all day. Enter 1 or 2, "
+            "corresponding to what you want to do.\n\n"};
+            std::cout << invalid_choice;
+        }
+    
+
+        std::string outside { "Despite the chill, the air is crisp and clear. You breathe "
             "deeply, savoring the fresh scent of nature around you. In the distance, you"
             " hear songbirds going about their merry morning gossip. A squirrel, spooked"
             " by your appearance, dashes across the path and scurries up a tree. Soon, "
-            "you come to a fork in the road.\n\n" };
-        std::cout << text2;
+            "you come to a fork in the road.\n\n" 
+            "The path to the left leads uphill. Groves of redwood trees"
+            " shade the groundcover of ferns and duff, darkening everything.\n\n"
+            "The path to the right leads downhill. Moss and lichen "
+            "appear to be thriving in the moist, foggy environment.\n\n"
+            "The path straight ahead is level and flat. The bright sun "
+            "makes the path look welcoming, but you don't have any sunscreen.\n\n"
+            "Which path do you take?\n\n"
+            "1: The shady path to the left that leads uphill.\n"
+            "2: The foggy path to the right that leads downhill.\n"
+            "3: The sunny, flat path straight ahead.\n\n"
+        };
 
-        std::string text3 { "The path to the left leads uphill. Groves of redwood trees"
-            " shade the groundcover of ferns and duff, darkening everything.\n\n" };
-        std::cout << text3;
-
-        std::string text4 { "The path to the right leads downhill. Moss and lichen "
-            "appear to be thriving in the moist, foggy environment.\n\n" };
-        std::cout << text4;
-
-        std::string text5 { "The path straight ahead is level and flat. The bright sun "
-            "makes the path look welcoming, but you don't have any sunscreen.\n\n" };
-        std::cout << text5;
-
-        std::cout << "Which path do you take?\n\n";
-
-        std::cout << "1: The shady path to the left that leads uphill.\n";
-        std::cout << "2: The foggy path to the right that leads downhill.\n";
-        std::cout << "3: The sunny, flat path straight ahead.\n\n";
+        std::cout << outside;
 
         int choice2 {};
         std::cin >> choice2;
@@ -143,199 +130,229 @@ int main() {
                 "tall, skinny man standing next to a cart of leather goods. You could have sworn"
                 " he wasn't there a moment ago—you walked right past him and would have seen him.\n\n"
                 "What do you say?\n\n"
+                "1. Hello, of course. It would be rude not to!\n"
+                "2. Nothing. You're not supposed to talk to strangers.\n\n"
              };
             std::cout << downhill;
-            std::cout << "1. Hello, of course. It would be rude not to!\n";
-            std::cout << "2. Nothing. You're not supposed to talk to strangers.\n\n";
-            bool cycleThroughChoices { true };
-            while (cycleThroughChoices)
-            {
-                int choice3 {};
-                std::cin >> choice3;
-                if (choice3 == 1)
-                {
-                    std::string hiToBill { "'Hello, Sir,' you finally get out.\n\n"
-                        "'And what brings you 'round this neck of the woods?'\n\n"
-                        "'Lunch with my friend.'\n\n"
-                        "'Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' "
-                        "Might you be interested in some of my wares? Your poor cloak looks tired"
-                        " and ratty. You would look divine in a brand new leather coat.'\n\n"
-                        "'No, thank you, Bill. I really must be going.'\n\n"
-                        "'Very well. I wouldn't be surprised to see you as a new leather coat soon.'\n\n"
-                        "'What?'\n\n"
-                        "'I wouldn't be surprised to see you in a new leather coat soon. Good day, "
-                        "little girl.'\n\n"
-                        "'Good day.' Perturbed, you turn around and head back to the fork in the road.\n\n"
-                     };
-                    std::cout << hiToBill;
-                    cycleThroughChoices = false;
-                }
-                else if (choice3 == 2)
-                {
-                    std::string sayNothing { "In too much shock, you say nothing, blinking.\n\n"
-                    "'What brings you 'round this neck of the woods?'\n\n"
-                    "You remain silent.\n\n"
-                    "The leather dealer smirks at you, 'Wolf got your tongue?'\n\n"
-                    "Stammering, you finally manage to speak. 'No, sir. I'm having lunch with my friend.'\n\n"
-                    "'ovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be"
-                    " interested in some of my wares? Your poor cloak looks tired and ratty. You would "
-                    "look divine in a brand new leather coat.'\n\n"
-                    "'No, thank you, Bill. I really must be going.'\n\n"
-                    "'Very well. I wouldn't be surprised to see you as a new leather coat soon.'\n\n"
-                    "'What?'\n\n"
-                    "'I wouldn't be surprised to see you in a new leather coat soon. Good day, little"
-                    " girl.'\n\n"
-                    "'Good day.' Perturbed, you turn around and head back to the fork in the road.\n\n"
-                    };
-                    std::cout << sayNothing;
-                    cycleThroughChoices = false;
-                }
-                else
-                {
-                    std::string invalid_choice { "You can't be a lazy daisy all day. Enter 1 or 2, "
-                        "corresponding to what you want to do.\n\n" };
-                    std::cout << invalid_choice; 
-                }
-            }
-            std::cout << "Which path do you take now?\n\n";
-            std::cout << "1: The shady path to the left that leads uphill.\n";
-            std::cout << "2: The sunny, flat path straight ahead.\n\n";
 
-            bool cycleThroughPaths { true };
-            while (cycleThroughPaths)
-            {
-                int path {};
-                std::cin >> path;
-
-                if (path == 1)
-                {
-                    std::string uphill2 { "You head uphill to the stream in the"
-                        " redwood forest to splash some water on your face. That "
-                        "Bill person weirded you out to no end. The moisture from the "
-                        "fog feels invigorating, calming your nerves already. Reaching "
-                        "the stream, you put the basket down on a tree stump and kneel "
-                        "to scoop up some cool water, splashing it on your face and "
-                        "smoothing down your hair. Over the sound of the stream, you can"
-                        " hear someone chopping wood nearby. Pauline Bunyan must be at work."
-                        " Refreshed, you decide to head towards Pauline to say hi.\n\n"
-                        "Coming upon Pauline, she lowers her axe and waves at you.\n\n"
-                        "You wave back, 'Hello there!'\n\n"
-                        "'Hi! What brings you around this neck of the woods?'\n\n"
-                        "'I\'m visiting Nan for lunch,'you reply, raising the basket to "
-                        "indicate you have it with you. 'Would you like to join us? We"
-                        " have plenty to share.'\n\n"
-                        "'Tempting, but I want to make sure I get all my chopping done."
-                        " Thanks for offering, though!'\n\n"
-                        "'No worries—more for us then!' You break into a wide smile, and "
-                        "you both laugh.\n\n"
-                    };
-                    std::cout << uphill2;
-                    cycleThroughPaths = false;
-                }
-                else if (path == 2)
-                {
-                    std::string flat2 {"You head out along the flat path. You need a bit "
-                        "of sun on your face. That Bill person weirded you out to no end."
-                        " The moisture from the fog feels invigorating, calming your nerves"
-                        " already. Reaching the stream, you put the basket down on a tree stump"
-                        " and kneel to scoop up some cool water, splashing it on your face and"
-                        " smoothing down your hair. Over the sound of the stream, you can hear "
-                        "someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed,"
-                        " you decide to head towards Pauline to say hi.\n\n"
-                        "Coming upon Pauline, she lowers her axe and waves at you.\n\n"
-                        "You wave back, 'Hello there!'\n\n"
-                        "'Hi! What brings you around this neck of the woods?'\n\n"
-                        "'I\'m visiting Nan for lunch,' you reply, raising the basket to indicate"
-                        " you have it with you. 'Would you like to join us? We have plenty to share.'\n\n"
-                        "'Tempting, but I want to make sure I get all my chopping done. Thanks for"
-                        " offering, though!'\n\n"
-                        "'No worries—more for us then!' You break into a wide smile, and you both laugh.\n\n"
-                    };
-                    std::cout << flat2;
-                    cycleThroughPaths = false;
-                }
-                else
-                {
-                    std::string invalid_choice { "You can't be a lazy daisy all day. Enter 1 or 2, "
-                        "corresponding to what you want to do.\n\n" };
-                    std::cout << invalid_choice; 
-                }
-            }
-            std::cout << "Tell Pauline about Buffalo Bill?\n\n";
-            std::cout << "1: Tell Pauline.\n";
-            std::cout << "2: Don\'t tell Pauline.\n\n";
-            bool tellPauline { true };
-            while (tellPauline)
-            {
-                int choice4 {};
-                std::cin >> choice4;
-                if (choice4 == 1)
-                {
-                    std::string talkAboutBill { "You remember Pauline mentioning that her leather axe holster"
-                        " was wearing out and she'd need a new one soon. You decide to tell her about Bill,"
-                        " despite his creepiness. 'I passed by a leather dealer earlier. He called himself"
-                        " 'Buffalo Bill.''\n\n"
-                        "'Weird name,' Pauline says, making a face.\n\n"
-                        "'I know, right? He seemed super creepy, but I know you've been looking for a new "
-                        "holster for your axe. He might have something that will work.'\n\n"
-                        "'Thanks! I might check him out.'\n\n"
-                        "'Well, I should be going. Have a good day!'\n\n"
-                        "'You too! Say hi to Nan for me.'\n\n"
-                        "'Will do!'\n\n"
-                    };
-                    std::cout << talkAboutBill;
-
-                    std::string reachNan { "Breaking into a light jog, you venture back to the crossroads"
-                        " and take the last path. You're eager to see Nan and eat some lunch; all that"
-                        " hiking and chatting built up an appetite, and now you're running a little bit"
-                        " late. Unbeknownst to you, Bill had been following you the whole time.\n\n" 
-                        "Reaching Nan's, you knock on the door. Nan opens the door and greets you with"
-                        " a warm hug. 'It's so good to see you, but what kept you, my little Red Robin?'\n\n"
-                        "'I went for a little bit of a hike and ran into a creepy leather dealer and "
-                        "also Pauline. She says 'Hi' by the way.'\n\n"
-                        "'What a busy morning! Well, you're here now; let's eat the lunch you bro—' "
-                        "Before Nan can finish, Bill breaks down the door, brandishing a rope fashioned "
-                        "into a noose. He kicks Nan squarely in the chest, causing her to fall to the floor,"
-                        " hitting her head and knocking her unconscious.\n\n"
-                    };
-                    std::cout << reachNan;
-                    tellPauline = false;
-                }
-                else if (choice4 == 2)
-                {
-                    std::string doNotTalkAboutBill { "You remember Pauline mentioning that her leather axe"
-                        " holster was wearing out and she'd need a new one soon. That Bill guy was super "
-                        "creepy, though. You decide not to mention him.\n\n" 
-                        "'Well, I should be going. Have a good day!'\n\n"
-                        "'You too! Say hi to Nan for me.'\n\n"
-                        "'Will do!'\n\n"
-                        "Breaking into a light jog, you venture back to the crossroads and take the last "
-                        "path. You're eager to see Nan and eat some lunch; all that hiking and chatting "
-                        "built up an appetite, and now you're running a little bit late. Unbeknownst to you,"
-                        " Bill had been following you the whole time.\n\n"
-                        "Reaching Nan's, you knock on the door. Nan opens the door and greets you with a "
-                        "warm hug. 'It's so good to see you, but what kept you, my little Red Robin?'\n\n"
-                        "'I went for a little bit of a hike and ran into a creepy leather dealer and also"
-                        " Pauline. She says 'Hi' by the way.'\n\n"
-                        "'What a busy morning! Well, you're here now; let's eat the lunch you bro—' Before"
-                        " Nan can finish, Bill breaks down the door, brandishing a rope fashioned into a"
-                        " noose. He kicks Nan squarely in the chest, causing her to fall to the floor, "
-                        "hitting her head and knocking her unconscious.\n\n"
-                    };
-                    std::cout << doNotTalkAboutBill;
-                    tellPauline = false;
-                }
-                else
-                {
-                    std::string invalid_choice { "You can't be a lazy daisy all day. Enter 1 or 2, "
-                        "corresponding to what you want to do.\n\n" };
-                    std::cout << invalid_choice; 
-                }
-            }
-
-
+            std::string hiToBill { "'Hello, Sir,' you finally get out.\n\n"
+                "'And what brings you 'round this neck of the woods?'\n\n"
+                "'Lunch with my friend.'\n\n"
+                "'Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' "
+                "Might you be interested in some of my wares? Your poor cloak looks tired"
+                " and ratty. You would look divine in a brand new leather coat.'\n\n"
+                "'No, thank you, Bill. I really must be going.'\n\n"
+                "'Very well. I wouldn't be surprised to see you as a new leather coat soon.'\n\n"
+                "'What?'\n\n"
+                "'I wouldn't be surprised to see you in a new leather coat soon. Good day, "
+                "little girl.'\n\n"
+                "'Good day.' Perturbed, you turn around and head back to the fork in the road.\n\n"
+                };            
             
+            std::string sayNothing { "In too much shock, you say nothing, blinking.\n\n"
+            "'What brings you 'round this neck of the woods?'\n\n"
+            "You remain silent.\n\n"
+            "The leather dealer smirks at you, 'Wolf got your tongue?'\n\n"
+            "Stammering, you finally manage to speak. 'No, sir. I'm having lunch with my friend.'\n\n"
+            "'ovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be"
+            " interested in some of my wares? Your poor cloak looks tired and ratty. You would "
+            "look divine in a brand new leather coat.'\n\n"
+            "'No, thank you, Bill. I really must be going.'\n\n"
+            "'Very well. I wouldn't be surprised to see you as a new leather coat soon.'\n\n"
+            "'What?'\n\n"
+            "'I wouldn't be surprised to see you in a new leather coat soon. Good day, little"
+            " girl.'\n\n"
+            "'Good day.' Perturbed, you turn around and head back to the fork in the road.\n\n"
+            };
+
+            makeChoice(hiToBill, sayNothing);
+
+        
+            std::string secondPath {
+                "Which path do you take now?\n\n"
+                "1: The shady path to the left that leads uphill.\n"
+                "2: The sunny, flat path straight ahead.\n\n"
+            };
+            std::cout << secondPath;
+
+            std::string uphill2 { "You head uphill to the stream in the"
+                " redwood forest to splash some water on your face. That "
+                "Bill person weirded you out to no end. The moisture from the "
+                "fog feels invigorating, calming your nerves already. Reaching "
+                "the stream, you put the basket down on a tree stump and kneel "
+                "to scoop up some cool water, splashing it on your face and "
+                "smoothing down your hair. Over the sound of the stream, you can"
+                " hear someone chopping wood nearby. Pauline Bunyan must be at work."
+                " Refreshed, you decide to head towards Pauline to say hi.\n\n"
+                "Coming upon Pauline, she lowers her axe and waves at you.\n\n"
+                "You wave back, 'Hello there!'\n\n"
+                "'Hi! What brings you around this neck of the woods?'\n\n"
+                "'I\'m visiting Nan for lunch,'you reply, raising the basket to "
+                "indicate you have it with you. 'Would you like to join us? We"
+                " have plenty to share.'\n\n"
+                "'Tempting, but I want to make sure I get all my chopping done."
+                " Thanks for offering, though!'\n\n"
+                "'No worries—more for us then!' You break into a wide smile, and "
+                "you both laugh.\n\n"
+            };
+
+            std::string flat2 {"You head out along the flat path. You need a bit "
+                "of sun on your face. That Bill person weirded you out to no end."
+                " The moisture from the fog feels invigorating, calming your nerves"
+                " already. Reaching the stream, you put the basket down on a tree stump"
+                " and kneel to scoop up some cool water, splashing it on your face and"
+                " smoothing down your hair. Over the sound of the stream, you can hear "
+                "someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed,"
+                " you decide to head towards Pauline to say hi.\n\n"
+                "Coming upon Pauline, she lowers her axe and waves at you.\n\n"
+                "You wave back, 'Hello there!'\n\n"
+                "'Hi! What brings you around this neck of the woods?'\n\n"
+                "'I\'m visiting Nan for lunch,' you reply, raising the basket to indicate"
+                " you have it with you. 'Would you like to join us? We have plenty to share.'\n\n"
+                "'Tempting, but I want to make sure I get all my chopping done. Thanks for"
+                " offering, though!'\n\n"
+                "'No worries—more for us then!' You break into a wide smile, and you both laugh.\n\n"
+            };            
+
+            makeChoice(uphill2, flat2);
+
+
+            std::string pauline {
+                "Tell Pauline about Buffalo Bill?\n\n"
+                "1: Tell Pauline.\n"
+                "2: Don\'t tell Pauline.\n\n"
+            };
+            std::cout << pauline;
+
+            std::string talkAboutBill { "You remember Pauline mentioning that her leather axe holster"
+                " was wearing out and she'd need a new one soon. You decide to tell her about Bill,"
+                " despite his creepiness. 'I passed by a leather dealer earlier. He called himself"
+                " 'Buffalo Bill.''\n\n"
+                "'Weird name,' Pauline says, making a face.\n\n"
+                "'I know, right? He seemed super creepy, but I know you've been looking for a new "
+                "holster for your axe. He might have something that will work.'\n\n"
+                "'Thanks! I might check him out.'\n\n"
+                "'Well, I should be going. Have a good day!'\n\n"
+                "'You too! Say hi to Nan for me.'\n\n"
+                "'Will do!'\n\n"
+                "Breaking into a light jog, you venture back to the crossroads"
+                " and take the last path. You're eager to see Nan and eat some lunch; all that"
+                " hiking and chatting built up an appetite, and now you're running a little bit"
+                " late. Unbeknownst to you, Bill had been following you the whole time.\n\n" 
+                "Reaching Nan's, you knock on the door. Nan opens the door and greets you with"
+                " a warm hug. 'It's so good to see you, but what kept you, my little Red Robin?'\n\n"
+                "'I went for a little bit of a hike and ran into a creepy leather dealer and "
+                "also Pauline. She says 'Hi' by the way.'\n\n"
+                "'What a busy morning! Well, you're here now; let's eat the lunch you bro—' "
+                "Before Nan can finish, Bill breaks down the door, brandishing a rope fashioned "
+                "into a noose. He kicks Nan squarely in the chest, causing her to fall to the floor,"
+                " hitting her head and knocking her unconscious.\n\n"
+            };
+
+            std::string doNotTalkAboutBill { "You remember Pauline mentioning that her leather axe"
+                " holster was wearing out and she'd need a new one soon. That Bill guy was super "
+                "creepy, though. You decide not to mention him.\n\n" 
+                "'Well, I should be going. Have a good day!'\n\n"
+                "'You too! Say hi to Nan for me.'\n\n"
+                "'Will do!'\n\n"
+                "Breaking into a light jog, you venture back to the crossroads and take the last "
+                "path. You're eager to see Nan and eat some lunch; all that hiking and chatting "
+                "built up an appetite, and now you're running a little bit late. Unbeknownst to you,"
+                " Bill had been following you the whole time.\n\n"
+                "Reaching Nan's, you knock on the door. Nan opens the door and greets you with a "
+                "warm hug. 'It's so good to see you, but what kept you, my little Red Robin?'\n\n"
+                "'I went for a little bit of a hike and ran into a creepy leather dealer and also"
+                " Pauline. She says 'Hi' by the way.'\n\n"
+                "'What a busy morning! Well, you're here now; let's eat the lunch you bro—' Before"
+                " Nan can finish, Bill breaks down the door, brandishing a rope fashioned into a"
+                " noose. He kicks Nan squarely in the chest, causing her to fall to the floor, "
+                "hitting her head and knocking her unconscious.\n\n"
+            };
+
+            makeChoice(talkAboutBill, doNotTalkAboutBill);
+
+            std::string billAttackEvent { 
+                "What do you do?\n\n"
+                "1: Lunge at Bill.\n"
+                "2: Check on Nan.\n\n"
+            };
+            std::cout << billAttackEvent;
+
+            std::string lungeAtBill { "You lunge at Bill, grasping for the rope,"
+                " but he's too quick for you. He dodges your attack, managing to slip"
+                " the rope around your neck in the process. \"Your skin will make some"
+                " fine, fine leather,\" Bill sneers as he strangles you, your vision "
+                "going splotchy.\n\n"
+                "\"I finished up a little early and decided to join you for lunch,\""
+                " Pauline cheerily calls out through the open door, \"I brought my axe "
+                "with me, too, in case Nan needs any fresh firewood.\" She gasps at the"
+                " scene inside as she steps through the doorway. Without any time to spare,"
+                " she grasps her axe and brings it down hard onto Bill's skull, killing "
+                "him instantly.\n\n"
+                "No longer deprived of air, you collapse to the floor, catching your breath."
+                " Nan regains consciousness and looks up at Pauline. \"Thank goodness you "
+                "came. We'd be goners for sure.\"\n\n"
+                "\"Me, too,\" Pauline agrees. \"We should call the police.\"\n\n"
+            };
             
+            std::string checkOnNan { "You drop to the floor next to Nan, attempting to revive"
+                " her so you both can escape. Bill comes up behind you and slips the rope "
+                "around your neck. \"Your skin will make some fine, fine leather,\" Bill "
+                "sneers as he strangles you, your vision going splotchy.\n\n"
+                "\"I finished up a little early and decided to join you for lunch,\" Pauline"
+                " cheerily calls out through the open door, \"I brought my axe with me, too, "
+                "in case Nan needs any fresh firewood.\" She gasps at the scene inside as she"
+                " steps through the doorway. Without any time to spare, she grasps her axe and"
+                " brings it down hard onto Bill's skull, killing him instantly.\n\n"
+                "No longer deprived of air, you collapse to the floor, catching your breath. "
+                "Nan regains consciousness and looks up at Pauline. \"Thank goodness you came."
+                " We'd be goners for sure.\"\n\n"
+                "\"Me, too,\" Pauline agrees. \"We should call the police.\"\n\n"
+            };
+            makeChoice(lungeAtBill, checkOnNan);
+
+            std::string callPoliceEvent {"Should you call the police?\n\n"
+                "1: Yes.\n"
+                "2: No.\n"
+            };
+
+            std::cout << callPoliceEvent;
+
+            std::string callPolice {"You nod, \"Yes, the authorities need to know.\"\n\n"
+                "Nan reaches for the telephone and begins to dial 9-1-1."
+                "\"Hands up; no one move!\" A voice from the doorway calls into the house."
+                " Several FBI agents and cops enter the house, guns drawn. A man who clearly"
+                " is the head of the operation steps forward.\n\n"
+                "\"I'm Detective Langley,\" the agent who spoke before says. \"I see you've "
+                "met 'Buffalo Bill.' We've been tailing him across state lines for months and"
+                " were minutes behind him when he entered this house. On behalf of the Bureau,"
+                " thank you. You potentially saved countless future victims of his. This is a"
+                " clear-cut case of self-defense; you may lower your hands.\"\n\n"
+                "Langley reaches for his radio. \"Dispatch, this is Langley. Suspect neutralized"
+                " and scene secure. Notify the coroner—we need to transport the body.\" He turns"
+                " back to the women, \"We need to take your statements and remove the body, then"
+                " you'll be free to go.\"\n\n"
+                "The three women look back and forth at each other, then at Langley. \"Can we"
+                " eat our lunch?\" they all say in unison.\n\n"
+            };
+            std::string dontCallPolice { "You shake your head, \"We can't call the police. "
+                "They'd never believe us!\"\n\n"
+                "\"Hands up; no one move!\" A voice from the doorway calls into the house."
+                " Several FBI agents and cops enter the house, guns drawn. A man who clearly"
+                " is the head of the operation steps forward.\n\n"
+                "\"I'm Detective Langley,\" the agent who spoke before says. \"I see you've "
+                "met 'Buffalo Bill.' We've been tailing him across state lines for months and"
+                " were minutes behind him when he entered this house. On behalf of the Bureau,"
+                " thank you. You potentially saved countless future victims of his. This is a"
+                " clear-cut case of self-defense; you may lower your hands.\"\n\n"
+                "Langley reaches for his radio. \"Dispatch, this is Langley. Suspect neutralized"
+                " and scene secure. Notify the coroner—we need to transport the body.\" He turns"
+                " back to the women, \"We need to take your statements and remove the body, then"
+                " you'll be free to go.\"\n\n"
+                "The three women look back and forth at each other, then at Langley. \"Can we"
+                " eat our lunch?\" they all say in unison.\n\n"    
+            };
+            makeChoice(callPolice, dontCallPolice);
         }
         else if (choice2 == 3)
         {
@@ -349,7 +366,7 @@ int main() {
         }
 
 
-        gameRunning = false;
+        validInput = false;
     }
 
     return 0;
