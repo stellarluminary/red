@@ -48,6 +48,9 @@ int main() {
                 if (choice == 1) 
                 {
                     std::string text {"You open the first door and assess your clothing options for the day. Before deciding, you should check the weather outside.\n"
+            "You open the second closed door, and a frigid breeze from outside whips around and up your pajamas, chilling you. Heading back to the closet,\n" 
+            "you put on a pair of slacks and a knitted sweater. You grab a warm woolen cloak and wrap it around your shoulders, pulling up the hood to\n" 
+            "shield your ears from the wind. You grab the basket from the stool in the corner and head outside.\n\n"
                     };
                     std::cout << text << std::endl;
 
@@ -55,9 +58,10 @@ int main() {
                 }
                 else if (choice == 2)
                 {
-                    std::string text {"You open the second closed door, and a frigid breeze from outside whips around and up your pajamas, chilling you.\n"
-                    "Heading back to the closet, you put on a pair of slacks and a knitted sweater. You grab a warm woolen cloak and wrap it around your shoulders,\n"
-                    "pulling up the hood to shield your ears from the wind. You grab the basket from the stool in the corner and head outside.\n\n" };
+                    std::string text {"You open the second door and a frigid breeze from outside whips around and up your pajamas, chilling you. Maybe you should rug up before heading out.\n"
+            "You open the first closed door and assess your clothing options for the day. You put on a pair of slacks and a knitted sweater. Since it's cold outside, you grab a warm\n"
+            "woolen cloak and wrap it around your shoulders, pulling up the hood to shield your ears from the wind. You grab the basket from the stool in the corner and head outside.\n\n"
+            };
                     std::cout << text << std::endl;
                     validInput = false; 
                 }
