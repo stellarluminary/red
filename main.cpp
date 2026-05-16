@@ -15,7 +15,6 @@ std::string intro { "The rising sun slowly brightens your bedroom, lulling you f
     "1: Push open the ajar door.\n"
     "2: Open the first closed door.\n"
     "3: Open the second closed door.\n"
-    "0: To quit the game.\n"
 };
 
 int main() {
