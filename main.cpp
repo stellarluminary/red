@@ -189,7 +189,7 @@ int main() {
 
                     if (kChoice == 1) 
                     {
-                        std::string hi {"\033[36m\"Hello, Sir,\"\033[0m\ you finally get out.\n"
+                        std::string hi {"\033[36m\"Hello, Sir,\"\033[0m you finally get out.\n"
                         // delay //
                         "\033[31m\"And what brings you around this neck of the woods?\"\033[0m\n"
                         // delay //
@@ -271,10 +271,10 @@ int main() {
                     "Coming upon Pauline, she lowers her axe and waves at you.\n"
                     "You wave back, \033[36m\"Hello there!\"\033[0m\n"
                     "\033[92m\"Hi! What brings you around this neck of the woods?\"\033[0m\n"
-                    "\033[36m\"I’m visiting Nan for lunch,\"\033[0m\ you reply, raising the basket to indicate you have it with you.\n"
+                    "\033[36m\"I’m visiting Nan for lunch,\"\033[0m you reply, raising the basket to indicate you have it with you.\n"
                     "\033[36m\"Would you like to join us? We have plenty to share.\"\033[0m\n"
                     "\033[92m\"Tempting, but I want to make sure I get all my chopping done. Thanks for offering, though!\"\033[0m\n"
-                    "\033[36m\"No worries—more for us then!\"\033[0m\ You break into a wide smile, and you both laugh.\n"
+                    "\033[36m\"No worries—more for us then!\"\033[0m You break into a wide smile, and you both laugh.\n"
                     //delay//
                     };
                     std::cout << kPauline << std::endl;
@@ -290,10 +290,10 @@ int main() {
                     "Coming upon Pauline, she lowers her axe and waves at you.\n"
                     "You wave back, \033[36m\"Hello there!\"\033[0m\n"
                     "\033[92m\"Hi! What brings you around this neck of the woods?\"\033[0m\n"
-                    "\033[36m\"I’m visiting Nan for lunch,\"\033[0m\ you reply, raising the basket to indicate you have it with you.\n"
+                    "\033[36m\"I’m visiting Nan for lunch,\"\033[0m you reply, raising the basket to indicate you have it with you.\n"
                     "\033[36m\"Would you like to join us? We have plenty to share.\"\033[0m\n"
                     "\033[92m\"Tempting, but I want to make sure I get all my chopping done. Thanks for offering, though!\"\033[0m\n"
-                    "\033[36m\"No worries—more for us then!\"\033[0m\ You break into a wide smile, and you both laugh.\n"
+                    "\033[36m\"No worries—more for us then!\"\033[0m You break into a wide smile, and you both laugh.\n"
                     //delay//
                     };
                     std::cout << jPauline << std::endl;
@@ -325,7 +325,7 @@ int main() {
                     std::string text {"You remember Pauline mentioning that her leather axe holster was wearing\n"
                     "out and she’d need a new one soon. You decide to tell her about Bill, despite his creepiness.\n"
                     "\033[36m\"I passed by a leather dealer earlier. He called himself 'Buffalo Bill.'\"\033[0m\n"
-                    "\033[92m\"Weird name,\"\033[0m\ Pauline says, making a face.\n"
+                    "\033[92m\"Weird name,\"\033[0m Pauline says, making a face.\n"
                     "\033[36m\"I know, right? He seemed super creepy, but I know you’ve been looking for a new holster\n"
                     "for your axe. He might have something that will work.\"\033[0m\n"
                     "\033[92m\"Thanks! I might check him out.\"\033[0m\n"
@@ -501,7 +501,7 @@ int main() {
              };
             std::cout << downhill;
 
-            std::string hiToBill {"\033[36m\"Hello, Sir,\"\033[0m\ you finally get out.\n"
+            std::string hiToBill {"\033[36m\"Hello, Sir,\"\033[0m you finally get out.\n"
                         // delay //
                         "\033[31m\"And what brings you around this neck of the woods?\"\033[0m\n"
                         // delay //
@@ -566,10 +566,10 @@ int main() {
                 "Coming upon Pauline, she lowers her axe and waves at you.\n\n"
                 "You wave back, \033[36m\"Hello there!\"\033[0m\n"
                 "\033[92m\"Hi! What brings you around this neck of the woods?\"\033[0m\n"
-                "\033[36m\"I’m visiting Nan for lunch,\"\033[0m\ you reply, raising the basket to indicate you have it with you.\n"
+                "\033[36m\"I’m visiting Nan for lunch,\"\033[0m you reply, raising the basket to indicate you have it with you.\n"
                 "\033[36m\"Would you like to join us? We have plenty to share.\"\033[0m\n"
                 "\033[92m\"Tempting, but I want to make sure I get all my chopping done. Thanks for offering, though!\"\033[0m\n"
-                "\033[36m\"No worries—more for us then!\"\033[0m\ You break into a wide smile, and you both laugh.\n"
+                "\033[36m\"No worries—more for us then!\"\033[0m You break into a wide smile, and you both laugh.\n"
                     //delay//
                     };
 
@@ -584,10 +584,10 @@ int main() {
                 "Coming upon Pauline, she lowers her axe and waves at you.\n\n"
                 "You wave back, \033[36m\"Hello there!\"\033[0m\n"
                 "\033[92m\"Hi! What brings you around this neck of the woods?\"\033[0m\n"
-                "\033[36m\"I’m visiting Nan for lunch,\"\033[0m\ you reply, raising the basket to indicate you have it with you.\n"
+                "\033[36m\"I’m visiting Nan for lunch,\"\033[0m you reply, raising the basket to indicate you have it with you.\n"
                 "\033[36m\"Would you like to join us? We have plenty to share.\"\033[0m\n"
                 "\033[92m\"Tempting, but I want to make sure I get all my chopping done. Thanks for offering, though!\"\033[0m\n"
-                "\033[36m\"No worries—more for us then!\"\033[0m\ You break into a wide smile, and you both laugh.\n"
+                "\033[36m\"No worries—more for us then!\"\033[0m You break into a wide smile, and you both laugh.\n"
                 //delay//
                 };            
 
@@ -604,7 +604,7 @@ int main() {
             std::string talkAboutBill {"You remember Pauline mentioning that her leather axe holster was wearing\n"
                     "out and she’d need a new one soon. You decide to tell her about Bill, despite his creepiness.\n"
                     "\033[36m\"I passed by a leather dealer earlier. He called himself 'Buffalo Bill.'\"\033[0m\n"
-                    "\033[92m\"Weird name,\"\033[0m\ Pauline says, making a face.\n"
+                    "\033[92m\"Weird name,\"\033[0m Pauline says, making a face.\n"
                     "\033[36m\"I know, right? He seemed super creepy, but I know you’ve been looking for a new holster\n"
                     "for your axe. He might have something that will work.\"\033[0m\n"
                     "\033[92m\"Thanks! I might check him out.\"\033[0m\n"
@@ -701,7 +701,7 @@ int main() {
                     "the body.\"\033[0m He turns back to the women, \033[34m\"We need to take your statements and remove the  body, then you’ll be free to go.\"\033[0m\n\n"
                     "The three women look back and forth at each other, then at Langley. \"Can we eat our lunch?\" they all say in unison.\n"
                     };   
-            };
+            // };
             makeChoice(callPolice, dontCallPolice);
             whileTrueVar2 = false;
 
