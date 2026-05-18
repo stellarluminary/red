@@ -512,7 +512,7 @@ void Flat1()
 
     delay10000();
 
-    cout << "\"Hello, little girl,\" says a cool voice.\n";
+    cout << "\033[31m\"Hello, little girl,\"\033[0m says a cool voice.\n\n";
 
     delay3000();
 
@@ -595,15 +595,15 @@ void LazyBill()
 
 void Flat1Talk()
 {
-    cout << "\n\"Hello, Sir,\" you finally get out.\n\n";
+    cout << "\033[36m\"Hello, Sir,\"\033[0m you finally get out.\n\n";
 
     delay3000();
 
-    cout << "\"And what brings you 'round this neck of the woods?\"\n\n";
+    cout <<  "\033[31m\"And what brings you around this neck of the woods?\"\033[0m\n\n";
 
     delay3000();
 
-    cout << "\"Lunch with my friend.\"\n\n";
+    cout << "\033[36m\"Lunch with my friend.\"\033[0m\n\n";
 
     delay2000();
 
@@ -616,7 +616,7 @@ void Flat1Silent()
 
     delay3000();
 
-    cout << "\"What brings you 'round this neck of the woods?\"\n\n";
+    cout << "\033[31m\"What brings you around this neck of the woods?\"\033[0m\n\n";
 
     delay3000();
 
@@ -624,11 +624,11 @@ void Flat1Silent()
 
     delay2000();
 
-    cout << "The leather dealer smirks at you, \"Wolf got your tongue?\"\n\n";
+    cout << "The leather dealer smirks at you, \033[31m\"Wolf got your tongue?\"\033[0m\n\n";
 
     delay3000();
 
-    cout << "Stammering, you finally manage to speak. \"No, sir. I'm having lunch with my friend.\"\n\n";
+    cout << "Stammering, you finally manage to speak.\033[36m\"No, sir. I’m having lunch with my friend.\"\033[0m\n\n";
 
     delay3000();
 
@@ -637,27 +637,28 @@ void Flat1Silent()
 
 void Bill()
 {
-    cout << "\"Lovely! My name is Ted Levine, but everyone calls me \'Buffalo Bill.\' Might you be interested in some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand new leather coat.\"\n\n";
+    cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me ‘Buffalo Bill.’ Might you be interested in some of my wares? Your poor cloak looks tired "
+                            "and ratty. You would look divine in a brand new leather coat.\"\033[0m\n\n";
 
     delay7000();
 
-    cout << "\"No, thank you, Bill. I really must be going.\"\n\n";
+    cout << "\033[36m\"No thank you, Bill. I really must be going.\"\033[0m\n\n";
 
     delay3000();
 
-    cout << "\"Very well. I wouldn't be surprised to see you \u0061\u0073 a new leather coat soon.\"\n\n";
+    cout << "\033[31m\"Very well. I wouldn’t be surprised to see you as a new leather coat soon.\"\033[0m\n\n";
 
     delay5000();
 
-    cout << "\"What?\"\n\n";
+    cout << "\033[36m\"What?\"\033[0m\n\n";
 
     delay2000();
 
-    cout << "\"I wouldn't be surprised to see you \u0069\u006E a new leather coat soon. Good day, little girl.\"\n\n";
+    cout <<  "\033[31m\"I wouldn’t be surprised to see you in a new leather coat soon. Good day, little girl.\"\033[0m\n\n";
 
     delay5000();
 
-    cout << "\"Good day.\" Perturbed, you turn around and head back to the fork in the road.\n\n\n";
+    cout << "\033[36m\"Good day.\"\033[0m Perturbed, you turn around and head back to the fork in the road.\n\n\n";
 
     delay3000();
 
@@ -801,23 +802,23 @@ void Pauline()
 
     delay3000();
 
-    cout << "You wave back, \"Hello there!\"\n\n";
+    cout << "You wave back, \033[36m\"Hello there!\"\033[0m\n\n";
 
     delay3000();
 
-    cout << "\"Hi! What brings you around this neck of the woods?\"\n\n";
+    cout << "\033[92m\"Hi! What brings you around this neck of the woods?\"\033[0m\n\n";
 
     delay3000();
 
-    cout << "\"I'm visiting Nan for lunch,\" you reply, raising the basket to indicate you have it with you. \"Would you like to join us? We have plenty to share.\"\n\n";
+    cout << "\033[36m\"I’m visiting Nan for lunch,\"\033[0m you reply, raising the basket to indicate you have it with you. "\033[36m\"Would you like to join us? We have plenty to share.\"\033[0m\n\n";
 
     delay5000();
 
-    cout << "\"Tempting, but I want to make sure I get all my chopping done. Thanks for offering, though!\"\n\n";
+    cout << "\033[92m\"Tempting, but I want to make sure I get all my chopping done. Thanks for offering, though!\"\033[0m\n\n";
 
     delay3000();
 
-    cout << "\"No worries\u2014more for us then!\" You break into a wide smile, and you both laugh.\n\n";
+    cout << "\033[36m\"No worries—more for us then!\"\033[0m You break into a wide smile, and you both laugh.\n\n";
 
     delay3000();
 
@@ -867,19 +868,19 @@ void LazyPauline()
 
 void Tell()
 {
-    cout << "\nYou remember Pauline mentioning that her leather axe holster was wearing out and she'd need a new one soon. You decide to tell her about Bill, despite his creepiness. \"I passed by a leather dealer earlier. He called himself 'Buffalo Bill.'\"\n\n";
+    cout << "\nYou remember Pauline mentioning that her leather axe holster was wearing out and she'd need a new one soon. You decide to tell her about Bill, despite his creepiness. \033[36m\"I passed by a leather dealer earlier. He called himself 'Buffalo Bill.'\"\033[0m\n\n";
 
     delay7000();
 
-    cout << "\"Weird name,\" Pauline says, making a face.\n\n";
+    cout << "\033[92m\"Weird name,\"\033[0m Pauline says, making a face.\n\n";
 
     delay3000();
 
-    cout << "\"I know, right? He seemed super creepy, but I know you've been looking for a new holster for your axe. He might have something that will work.\"\n\n";
+    cout << "\033[36m\"I know, right? He seemed super creepy, but I know you've been looking for a new holster for your axe. He might have something that will work.\"\033[0m\n\n";
 
     delay5000();
 
-    cout << "\"Thanks! I might check him out.\"\n\n";
+    cout << "\033[92m\"Thanks! I might check him out.\"\033[0m\n\n";
 
     delay3000();
 
@@ -897,15 +898,15 @@ void NoTell()
 
 void Nan()
 {
-    cout << "\"Well, I should be going. Have a good day!\"\n\n";
+    cout << "\033[36m\"Well, I should be going. Have a good day!\"\033[0m\n\n";
 
     delay3000();
 
-    cout << "\"You too! Say hi to Nan for me.\"\n\n";
+    cout << "\033[92m\"You too! Say hi to Nan for me.\"\033[0m\n\n";
 
     delay3000();
 
-    cout << "\"Will do!\"\n\n";
+    cout << "\033[36m\"Will do!\"\033[0m\n\n";
 
     delay2000();
 
@@ -947,15 +948,15 @@ void Nan()
     cout << "    / \\ `-.      /-T-\\\n";
     cout << "    \\_/---'     (_/ \\_)\n\n";
 
-    cout << "Reaching Nan's, you knock on the door. Nan opens the door and greets you with a warm hug. \"It's so good to see you, but what kept you, my little Red Robin?\"\n\n";
+    cout << "Reaching Nan's, you knock on the door. Nan opens the door and greets you with a warm hug. "\033[95m\"It's so good to see you, but what kept you, my little Red Robin?\"\033[0m\n\n";
 
     delay7000();
 
-    cout << "\"I went for a little bit of a hike and ran into a creepy leather dealer and also Pauline. She says 'Hi' by the way.\"\n\n";
+    cout << "\033[92m\"I went for a little bit of a hike and ran into a creepy leather dealer and also Pauline. She says 'Hi' by the way.\"\033[0m\n\n";
 
     delay5000();
 
-    cout << "\"What a busy morning! Well, you're here now; let's eat the lunch you bro\u2014\" Before Nan can finish, Bill breaks down the door, brandishing a rope fashioned into a noose. He kicks Nan squarely in the chest, causing her to fall to the floor, hitting her head and knocking her unconscious.\n\n";
+    cout << "\033[95m\"What a busy morning! Well, you're here now; let's eat the lunch you bro\u2014\"\033[0m Before Nan can finish, Bill breaks down the door, brandishing a rope fashioned into a noose. He kicks Nan squarely in the chest, causing her to fall to the floor, hitting her head and knocking her unconscious.\n\n";
 
     delay15000();
 
@@ -1005,7 +1006,7 @@ void LazyAttack()
 
 void Attack()
 {
-    cout << "\nYou lunge at Bill, grasping for the rope, but he's too quick for you. He dodges your attack, managing to slip the rope around your neck in the process. \"Your skin will make some fine, fine leather,\" Bill sneers as he strangles you, your vision going splotchy.\n\n";
+    cout << "\nYou lunge at Bill, grasping for the rope, but he's too quick for you. He dodges your attack, managing to slip the rope around your neck in the process. \033[31m\"Your skin will make some fine, fine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n\n";
 
     delay10000();
 
@@ -1014,7 +1015,7 @@ void Attack()
 
 void CheckNan()
 {
-    cout << "\nYou drop to the floor next to Nan, attempting to revive her so you both can escape. Bill comes up behind you and slips the rope around your neck. \"Your skin will make some fine, fine leather,\" Bill sneers as he strangles you, your vision going splotchy.\n\n";
+    cout << "\nYou drop to the floor next to Nan, attempting to revive her so you both can escape. Bill comes up behind you and slips the rope around your neck. \033[31m\"Your skin will make some fine, fine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n\n";
 
     delay10000();
 
@@ -1023,7 +1024,7 @@ void CheckNan()
 
 void PaulineFTW()
 {
-    cout << "\"I finished up a little early and decided to join you for lunch,\" Pauline cheerily calls out through the open door, \"I brought my axe with me, too, in case Nan needs any fresh firewood.\" She gasps at the scene inside as she steps through the doorway. Without any time to spare, she grasps her axe and brings it down hard onto Bill's skull, killing him instantly.\n\n";
+    cout << "\033[92m\"I finished up a little early and decided to join you for lunch,\"\033[0m Pauline cheerily calls out through the open door, \033[92m\"I brought my axe with me, too, in case Nan needs any fresh firewood.\"\033[0m She gasps at the scene inside as she steps through the doorway. Without any time to spare, she grasps her axe and brings it down hard onto Bill's skull, killing him instantly.\n\n";
 
     delay10000();
 
@@ -1047,11 +1048,11 @@ void PaulineFTW()
 
     delay10000();
 
-    cout << "No longer deprived of air, you collapse to the floor, catching your breath. Nan regains consciousness and looks up at Pauline. \"Thank goodness you came. We'd be goners for sure.\"\n\n";
+    cout << "No longer deprived of air, you collapse to the floor, catching your breath. Nan regains consciousness and looks up at Pauline. \033[95m\"Thank goodness you came. We’d be goners for sure.\"\033[0m\n\n";
 
     delay7000();
 
-    cout << "\"Me, too,\" Pauline agrees. \"We should call the police.\"\n\n";
+    cout << "\033[92m\"Me, too,\"\033[0m Pauline agrees. \033[92m\"We should call the police.\"\033[0m\n\n";
 
     delay3000();
 
@@ -1101,7 +1102,7 @@ void LazyPolice()
 
 void CallPolice()
 {
-    cout << "\nYou nod, \"Yes, the authorities need to know.\"\n\n";
+    cout << "You nod, \033[36m\"Yes, the authorities need to know.\"\033[0m\n\n";
 
     delay3000();
 
@@ -1114,7 +1115,7 @@ void CallPolice()
 
 void NoPolice()
 {
-    cout << "\nYou shake your head, \"We can't call the police. They'd never believe us!\"\n\n";
+    cout << "You shake your head, \033[36m\"We can’t call the police. They’d never believe us!\"\033[0m\n\n";
 
     delay3000();
 
@@ -1123,7 +1124,7 @@ void NoPolice()
 
 void End()
 {
-    cout << "\"Hands up; no one move!\" A voice from the doorway calls into the house. Several FBI agents and cops enter the house, guns drawn. A man who clearly is the head of the operation steps forward.\n\n";
+    cout << "\033[34m\"Hands up; no one move!\"\033[0m A voice from the doorway calls into the house.\n\n";
 
     delay5000();
 
@@ -1148,11 +1149,11 @@ void End()
     cout << "       /  J L  \\\n";
     cout << "      (__/   \\__)\n\n";
 
-    cout << "\"I'm Detective Langley,\" the agent who spoke before says. \"I see you've met 'Buffalo Bill.' We've been tailing him across state lines for months and were minutes behind him when he entered this house. On behalf of the Bureau, thank you. You potentially saved countless future victims of his. This is a clear-cut case of self-defense; you may lower your hands.\"\n\n";
+    cout << "\033[34m\"I’m Detective Langley,\"\033[0m the agent who spoke before says. \033[34m\"I see you’ve met ‘Buffalo Bill.’ We’ve been tailing him across state lines for months and were minutes behind him when he entered this house. On behalf of the Bureau, thank you. You potentially saved countless future victims of his. This is a clear-cut case of self-defense; you may lower your hands.\"\033[0m\n\n";
 
     delay15000();
 
-    cout << "Langley reaches for his radio. \"Dispatch, this is Langley. Suspect neutralized and scene secure. Notify the coroner—we need to transport the body.\" He turns back to the women, \"We need to take your statements and remove the body, then you'll be free to go.\"\n\n";
+    cout << "Langley reaches for his radio. \033[34m\"Dispatch, this is Langley. Suspect neutralized and scene secure. Notify the coroner—we need to transport the body.\"\033[0m He turns back to the women, \033[34m\"We need to take your statements and remove the  body, then you’ll be free to go.\"\033[0m\n\n";
 
     delay7000();
 
@@ -1576,7 +1577,7 @@ int main() {
                 else if (gChoice == 2)
                 {
                     std::string text {"You drop to the floor next to Nan, attempting to revive her so you both can escape. Bill comes up behind you and slips the rope\n"
-                    "around your neck. \"Your skin will make some fine, fine leather,\" Bill sneers as he strangles you, your vision going splotchy.\n"
+                    "around your neck. \033[31m\"Your skin will make some fine, fine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n"
                    "\033[92m\"I finished up a little early and decided to join you for lunch,\"\033[0m Pauline cheerily calls out through the open door, \033[92m\"I brought my axe with me, too, in case"
                     "Nan needs any fresh firewood.\"\033[0m She gasps at the scene inside as she steps through the doorway. Without any time to spare, she grasps her axe and brings it down\n"
                     "hard onto Bill’s skull, killing him instantly.\n\n"
