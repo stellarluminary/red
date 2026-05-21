@@ -5,7 +5,7 @@
 /*#include "makeChoice.h"*/
 
 //
-// New-line function because easy is neat and goooood 😁
+// New-line
 //
 
 void n() {
@@ -77,9 +77,7 @@ void delay20000() {
 }
 
 //
-//
-//ASCII Art
-//
+// ASCII art
 //
 
 void titleArt();
@@ -113,8 +111,7 @@ void titleArt() {
     std::cout << "88      a8P  88,    ,88  aa    ]8I  88`\"Yba,  \"8b,   ,aa    88,       88      .a8P   \"8b,   ,aa  88  88    `8b,d8'    \"8b,   ,aa  88            `8b,d8'\n";
     std::cout << "88888888P\"   `\"8bbdP\"Y8  `\"YbbdP\"'  88   `Y8a  `\"Ybbd8\"'    \"Y888     88888888Y\"'     `\"Ybbd8\"'  88  88      \"8\"       `\"Ybbd8\"'  88              Y88'\n";
     std::cout << "                                                                                                                                                  d8'\n";
-    std::cout << "                                                                                                                                                 d8'\n";
-    std::cout << "                                                         ,dPYb,\n";
+    std::cout << "                                                         ,dPYb,                                                                                  d8'\n";
     std::cout << "                                                         IP'`Yb\n";
     std::cout << "                                                         I8  8I\n";
     std::cout << "                                                         I8  8'\n";
@@ -147,39 +144,38 @@ void titleArt() {
 }
 
 void insideArt() {
-    std::cout << "               |                                                                                     |\n";
-    std::cout << "               |                                      _______________          _______________       |\n";
-    std::cout << "               |       ____________                  |  _.-'   _.  | |        |  ___________  |      |\n";
-    std::cout << "               |      | ____  ____ |                 | |   _.-'  | | |        | |   _____   | |      |\n";
-    std::cout << "               |      ||    || -( ||                 | |  |      | | |        | |  |     |  | |      |\n";
-    std::cout << "               |      ||    || ,'`||                 | |  | _.-' | | |        | |  |  _  |  | |      | |\\\n";
-    std::cout << "               |      ||____||____||                 | |  |    _.| | |        | |  |     |  | |      | | \\\n";
-    std::cout << "               |      | ____  ____ |                 | |  |_.-' _.-| |        | |  |_____|  | |      | |  \\\n";
-    std::cout << "               |      ||,-._||.-. ||                 | |    _.-'   | |        | |___________| |      | ||\\ \\\n";
-    std::cout << "               |      ||    ||   `||                 | |_.-'   _. o| |        | |   _____   | |      | || \\ \\\n";
-    std::cout << "               |     _||____||____||_                | |   _.-'  | | |        | |  |     | o| |      | ||\\ \\ \\\n";
-    std::cout << "              .|    |________________|               | |  | _.-' | | |        | |  |     |  | |      | |||\\ \\ \\\n";
-    std::cout << "              ||                                     | |  |    _.| | |        | |  |  -  |  | |      | ||| \\ \\ \\\n";
-    std::cout << "             /||                                     | |  |_.-'   _| |        | |  |     |  | |      | |||  \\ \\ \\\n";
-    std::cout << "            / ||                              .      | |      _.-'   |        | |  |_____|  | |      | ||| \\ | | |\n";
-    std::cout << "         . /  ||~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|      | |   _.-'      |        | |           | |      | |||\\  | | |\n";
-    std::cout << "         |/   /                              /|______|_|.-'__________|________|_|-----------|_|______| ||| \\ | | |\n";
-    std::cout << "         |   /                              / |                                                      \\ |||  \\| | |\n";
-    std::cout << "         |  /                              /  |                                                       \\||| \\ | | |\n";
-    std::cout << "         | /                            . /  /|                                                        \\||   |o| |\n";
-    std::cout << "         |/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|/  /                                                    ..     \\ \\  | | |\n";
-    std::cout << "         |                              |  /                                                     |\\\\     \\ \\ | | |\n";
-    std::cout << "         |                              | /                                                 .====^^\\\\==.  \\ \\| | |\n";
-    std::cout << "         |~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|/                                                  |\\     ||  |\\  \\ | | |\n";
-    std::cout << "        /|                              |                                                 .-:X\"====^^===='_ \\  | |\n";
-    std::cout << "       /                                                                                 /  \\|XXXXXXXXXX|  \\ \\ | |\n";
-    std::cout << "      /                                                                                 (     \"\"\"\"\"\"\"\"\"\"    ) \\| |\n";
-    std::cout << "     /                                                                                   \\_________________/   \\ |\n";
-    std::cout << "    /                                                                                       || ||  || ||        \\|\n";
-    std::cout << "   /                                                                                        ||\\||--||\\||         \\\n";
-    std::cout << "  /                                                                                         ||\\||=====||          \\\n";
-    std::cout << " /                                                                                          || ||  || ||           \\\n";
-    std::cout << "/                                                                                              ||     ||            \\\n\n";
+    std::cout << "            |                                      _______________         _______________      |\n";
+    std::cout << "            |       ____________                  |  _.-'   _.  | |       |  ___________  |     |\n";
+    std::cout << "            |      | ____  ____ |                 | |   _.-'  | | |       | |   _____   | |     |\n";
+    std::cout << "            |      ||    || -( ||                 | |  |      | | |       | |  |     |  | |     |\n";
+    std::cout << "            |      ||    || ,'`||                 | |  | _.-' | | |       | |  |  _  |  | |     | |\\\n";
+    std::cout << "            |      ||____||____||                 | |  |    _.| | |       | |  |     |  | |     | | \\\n";
+    std::cout << "            |      | ____  ____ |                 | |  |_.-' _.-| |       | |  |_____|  | |     | |  \\\n";
+    std::cout << "            |      ||,-._||.-. ||                 | |    _.-'   | |       | |___________| |     | ||\\ \\\n";
+    std::cout << "            |      ||    ||   `||                 | |_.-'   _. o| |       | |   _____   | |     | || \\ \\\n";
+    std::cout << "            |     _||____||____||_                | |   _.-'  | | |       | |  |     | o| |     | ||\\ \\ \\\n";
+    std::cout << "           o|    |________________|               | |  | _.-' | | |       | |  |     |  | |     | |||\\ \\ \\\n";
+    std::cout << "           ||                                     | |  |    _.| | |       | |  |  -  |  | |     | ||| \\ \\ \\\n";
+    std::cout << "          /||                                     | |  |_.-'   _| |       | |  |     |  | |     | |||  \\ \\ \\\n";
+    std::cout << "         / ||                              o      | |      _.-'   |       | |  |_____|  | |     | ||| \\ | | |\n";
+    std::cout << "      o /  ||˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷|      | |   _.-'      |       | |           | |     | |||\\  | | |\n";
+    std::cout << "      |/   ༼                              ༼|______|_|.-'__________|_______|_|-----------|_|_____| ||| \\ | | |\n";
+    std::cout << "      |   ༼                              ༼ |                                                    \\ |||  \\| | |\n";
+    std::cout << "      |  ༼                              ༼  |                                                     \\||| \\ | | |\n";
+    std::cout << "      | ༼                            o ༼  ༼|                                                      \\||   |o| |\n";
+    std::cout << "      |ފ˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷|༼  ༼                                                  ..     \\ \\  | | |\n";
+    std::cout << "      |                              |  ༼                                                   |\\\\     \\ \\ | | |\n";
+    std::cout << "      |                              | ༼                                               .====^^\\\\==.  \\ \\| | |\n";
+    std::cout << "      |˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷˷|༼                                                |\\     ||  |\\  \\ | | |\n";
+    std::cout << "     /|                              |                                               .-:X\"====^^===='_ \\  | |\n";
+    std::cout << "    /                                                                               /  \\|XXXXXXXXXX|  \\ \\ | |\n";
+    std::cout << "   /                                                                               (     \"\"\"\"\"\"\"\"\"\"    ) \\| |\n";
+    std::cout << "  /                                                                                 \\_________________/   \\ |\n";
+    std::cout << " /                                                                                     || ||  || ||        \\|\n";
+    std::cout << "/                                                                                      ||\\||--||\\||         \\\n";
+    std::cout << "                                                                                       ||\\||=====||          \\\n";
+    std::cout << "                                                                                       || ||  || ||           \\\n";
+    std::cout << "                                                                                          ||     ||            \\\n\n";
 }
 
 void bathArt() {
@@ -217,34 +213,30 @@ void closetArt() {
 }
 
 void windArt() {
-    std::cout << "              ██                ██            ██████████████▓▓                                                                                \n";
-    std::cout << "                                        ████░░              ████                                            ██████████████                    \n";
-    std::cout << "                                      ▓▓                    ████      ▓▓                                ████          ████                    \n";
-    std::cout << "                                                              ██      ██                          ████                  ██            ▓▓░░    \n";
-    std::cout << "                                ░░▓▓                        ████                                ██                      ██                    \n";
-    std::cout << "                                ░░▓▓        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██░░                              ▓▓░░                ▓▓▓▓▓▓██                    \n";
-    std::cout << "                                ░░▓▓                                                          ██                                              \n";
-    std::cout << "                        ▓▓      ░░██                                                          ██                                              \n";
-    std::cout << "  ██                    ░░        ▒▒██                                                        ████                                            \n";
-    std::cout << "                                      ████                                ██                    ████                                      ████\n";
-    std::cout << "                                          ██████████████████████████████████                      ████                                ▓▓██    \n";
-    std::cout << "                                          ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░                      ░░░░▓▓▓▓▓▓                        ▓▓▒▒░░    \n";
-    std::cout << "                                                                                        ██                  ████████████████████████          \n";
-    std::cout << "      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                                                                                                                      \n";
-    std::cout << "██  ██                  ████                                                            ██████                                  ██            \n";
-    std::cout << "    ██                    ██                                                      ██████    ████                                              \n";
-    std::cout << "    ██                  ▓▓░░          ▒▒                ▓▓                    ▓▓▓▓░░░░░░      ██                                              \n";
-    std::cout << "    ██                                                                    ████                ██                ▒▒░░                          \n";
-    std::cout << "    ██▒▒                                                                ▓▓██                  ██                                              \n";
-    std::cout << "    ░░████                                                              ██                ▓▓▓▓                                                \n";
-    std::cout << "        ████  ██                                                        ████                                                                  \n";
-    std::cout << "                ██  ████  ██  ██░░▓▓▒▒▒▒██  ██████████                    ████                                            ██                  \n";
-    std::cout << "                ░░                          ░░░░░░░░            ▓▓          ██▓▓                                                              \n";
-    std::cout << "                                                                              ░░████                  ██  ████████░░                          \n";
-    std::cout << "                                                                                    ████  ██████  ████                                        \n";
-    std::cout << "                                                                                    ░░░░    ░░    ░░                                          \n";
-    std::cout << "  ██▓▓                      ██                                                                                                          ▓▓    \n";
-    std::cout << "                  ▓▓                              ░░        ▓▓                                                                                \n\n";
+    std::cout << "                               ██████████████▓▓\n";
+    std::cout << "              ██           ████░░           ████                                      ██████████████\n";
+    std::cout << "                         ▓▓                   ████                  ▓▓             ████          ████\n";
+    std::cout << "                                                 ██           ██               ████                 ██            ▓▓░░\n";
+    std::cout << "                      ░░▓▓                     ████                           ██                   ██\n";
+    std::cout << "                      ░░▓▓       ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██░░                          ▓▓░░          ▓▓▓▓▓▓██\n";
+    std::cout << "          ░░            ▒▒██                                                   ████\n";
+    std::cout << "                           ████                               ██                 ████                                    ████\n";
+    std::cout << "                             ██████████████████████████████████                    ████                               ▓▓██\n";
+    std::cout << "                             ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░                    ░░░░▓▓▓▓▓▓                       ▓▓▒▒░░\n";
+    std::cout << "                                                                         ██                 ████████████████████████\n";
+    std::cout << "      ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n";
+    std::cout << "    ██                ████                                          ██████                              ██\n";
+    std::cout << "    ██                    ██                                    ██████   ████\n";
+    std::cout << "    ██                  ▓▓░░          ▒▒                    ▓▓▓▓░░░░░░      ██\n";
+    std::cout << "    ██                                                    ████                ██                ▒▒░░\n";
+    std::cout << "    ██▒▒                                                ▓▓██                 ██\n";
+    std::cout << "    ░░████                                             ██                 ▓▓▓▓\n";
+    std::cout << "        ██████                                       ████\n";
+    std::cout << "             ██████████░░▓▓▒▒▒▒████████████          ████                              ██\n";
+    std::cout << "             ░░                       ░░░░░░░░         ██▓▓\n";
+    std::cout << "                                                        ░░████            ██████████░░\n";
+    std::cout << "                                                             ██████████████\n";
+    std::cout << "                                                               ░░░░░░░░\n\n";
 }
 
 void accidentArt() {
@@ -299,8 +291,7 @@ void outsideArt() {
     std::cout << "    |____()|__|()_____|=|=|=|=|=|=|=|=|=|=|\n";
     std::cout << "^^^^^^^^^^^ === ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n";
     std::cout << "              ===\n";
-    std::cout << "                ===\n";
-    std::cout << "                  ===\n\n";
+    std::cout << "                ===\n\n";
 }
 
 void uphillArt() {
@@ -362,7 +353,6 @@ void downhillArt() {
     std::cout << "                     `)@@@o%::;             ~~~~\"\"\"\"\"\"\"~~~~    ,p$q8,:@)'  .p*'\n";
     std::cout << "                      %@@(o)::;           ~~               ~~~'    '@@Pp@@*'\n";
     std::cout << "                     .%@@@@%::;                                     Y7'.'\n";
-    std::cout << "                     ;%@@@@%::;.                                    :@):.\n";
     std::cout << "                    ;%@@@@%%:;;;.                                  .:@:'.\n";
     std::cout << "                ...;%@@@@@%%:;;;;,..                             .::(@:.\n\n";
 }
@@ -385,8 +375,7 @@ void flatArt() {
     std::cout << "                              /        \\\n";
     std::cout << "                             /          \\\n";
     std::cout << "                            /            \\\n";
-    std::cout << "                           /              \\\n";
-    std::cout << "                          /                \\\n\n";
+    std::cout << "                           /              \\\n\n";
 }
 
 void billArt() {
@@ -415,9 +404,7 @@ void billArt() {
     std::cout << "                         /         \\\n";
     std::cout << "      __/========  -~~~~'           / !/'  ``~~~~~~===_\n";
     std::cout << "   .=~                   \\         /                   ~q\n";
-    std::cout << "  /'                      \\       /                      \\\n";
-    std::cout << " /'                        \\     /                        \\\n";
-    std::cout << " |                          \\   /                          |\n\n";
+    std::cout << "  /'                      \\       /                      \\\n\n";
 }
 
 void streamArt() {
@@ -432,11 +419,10 @@ void streamArt() {
     std::cout << " -----------------`--------'\"\"\"      ///Y/|[]\\\\\\\\.    %% |     |  |   %\n";
     std::cout << "                 `````\"--------------..-------..._,------'.______.'----\n";
     std::cout << "~^~_-~^^-^~^_~^_^-~^~^-~-~^~^~^~_-~^_^-^~^_~^_^-~^~^-~~^-~^-~^_~^~-~^~^\n";
-    std::cout << "_~^~_~^-^~^-~^~-_~^-~^-~^_~^~-~^~^-^'~~=._~_~^~^-~^-~^_~^~-~^~^-~^~-_~\n";
-    std::cout << "~_~^-^~~-:`-~^-~^_~^:--^~^-~^~-_~^-~^-~^_~^~-~^~^-_:~^-~^- ,~^-~^-~~^~\n";
-    std::cout << "^_~^~-~^~^-~^~-_~^~_~^-^~ ~-'._~^-~^-_^~=-^~^-~^~-_~^-~^~(`(`)`)^~.=~-\n";
+    std::cout << "~_~^-^~~-:`-~^-~^_~^:--^~^-~^~-_~^-~^-~^_~^~-~^~^-_:~^-~^-~ˏ_ˎ^-~^-~~^~\n";
+    std::cout << "^_~^~-~^~^-~^~-_~^~_~^-^~ ~-'._~^-~^-_^~=-^~^-~^~-_~^-~^~,ʹ ̑˰ ˋ˴^~.=~-\n";
     std::cout << "~^-_~^-_.'^-~^-~^-~^_~^~-~^~^-~^~-_~^~_~^-^~_~^-~^~=.~^-( ( O ) )-~^~_\n";
-    std::cout << "~_~^-^~~-:^-~^-~^_~^:-~^-~^~-_~^-~^-~^_~^~^-:~^-~^-~`;_.(__(_)__)^~^-~\n";
+    std::cout << "~_~^-^~~-:^-~^-~^_~^:-~^-~^~-_~^-~^-~^_~^~^-:~^-~^-~`;_.Ł__(_)__˩^~^-~\n";
     std::cout << "~^~^-~^-~^~^~-^~-~^_~^~-~^~^-~^~-_~^-~^-~^_~^~!~-_.='~s |     | | '```\n";
     std::cout << "~^~^`~-~^_~^~-~^~^-~^~-_~^____------`````' -L...=-\"  ___|       | ````\n";
     std::cout << "~_~^-^~~     __.,------'\"\"``\" ``` '```\" ```' -----`'\"   |   | | | ' ``\n";
@@ -444,7 +430,6 @@ void streamArt() {
     std::cout << "\"'\" __    .  ` ` (__)    ```\" ``` '\"'````\" ```  `` ```  |       |  '``\n";
     std::cout << " .-`  )     ```\" ``` '\"'````\" `````\" ``\" ```    `` '` ` |  |  | | ``\\`\n";
     std::cout << "(  _.'  ``\" ``` '\"'```` ``\" ``` '\"'````  `---\" ````- ` /         \\ -\\`\n";
-    std::cout << "   ``\" ``` '\"'````  \"\"''```\" ``` '\"'````\" ``` '\"'```` `\" `- ``/``\\ ```\n";
     std::cout << "         ``\" ``` '\"'````   ```` '```` ```` `` ````````` ``' ``\"\"` ````\n";
     std::cout << "                        `` `'`` ```'`` ``'``` '`````` `'``````` `` ```\n\n";
 }
@@ -470,7 +455,6 @@ void paulineArt() {
 }
 
 void nanhouseArt() {
-    std::cout << "                           (    )\n";
     std::cout << "                          (    )\n";
     std::cout << "                            )  )\n";
     std::cout << "                           (  (                  /\\\n";
@@ -512,8 +496,7 @@ void deathArt() {
     std::cout << "           (_(((____________________)\n";
     std::cout << "             /  |\n";
     std::cout << "            /   |\n";
-    std::cout << "           /    |\n";
-    std::cout << "          /_____|\n";
+    std::cout << "           /____|\n";
     std::cout << "        @@ _    _\\@\n";
     std::cout << "      @@  (*)  (*)@\n";
     std::cout << "    @@@       \\  \\@\n";
@@ -601,9 +584,7 @@ std::string introChoice {
 };
 
 //
-//
-// Cat's functions
-//
+// Actions/events
 //
 
 void introduction();
@@ -674,8 +655,7 @@ void policeLazy();
 
 // Game start
 
-void introduction()
-{
+void introduction() {
     std::cout << "The rising sun slowly brightens your bedroom, lulling you from your dreams. Reluctantly, you \npull yourself away from your slumber, opening your eyes a smidgen to help reacquaint yourself \nwith the waking world. Blinking a few times to clear the sleep matter from your eyes and let \nyour pupils adjust, you see a basket containing a bottle of juice and several sandwiches \nsitting on a small stool in the corner of the room. Pulling back the bedcovers and sitting \nup, you stretch your arms high up into the air, accompanied by a yawn.\n\n";
 
     delay15000();
@@ -720,8 +700,7 @@ void introduction()
     }
 }
 
-void door1Lazy()
-{
+void door1Lazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1, 2, or 3, corresponding to what you want to do.\n\n";
@@ -755,8 +734,7 @@ void door1Lazy()
 
 // First choice | Bath (first closed door)
 
-void door1Bath()
-{
+void door1Bath() {
     n();
 
     bathArt();
@@ -784,8 +762,7 @@ void door1Bath()
     }
 }
 
-void door1BathLazy()
-{
+void door1BathLazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -811,8 +788,7 @@ void door1BathLazy()
     }
 }
 
-void door1Bath_door2Closet()
-{
+void door1Bath_door2Closet() {
     n();
 
     closetArt();
@@ -836,8 +812,7 @@ void door1Bath_door2Closet()
     outside();
 }
 
-void door1Bath_door2Out()
-{
+void door1Bath_door2Out() {
     n();
 
     windArt();
@@ -857,8 +832,7 @@ void door1Bath_door2Out()
 
 // First choice | Closet (first closed door)
 
-void door1Closet()
-    {
+void door1Closet() {
         n();
 
         closetArt();
@@ -886,8 +860,7 @@ void door1Closet()
         }
 }
 
-void door1ClosetLazy()
-{
+void door1ClosetLazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -913,8 +886,7 @@ void door1ClosetLazy()
     }
 }
 
-void door1Closet_door2Bath()
-{
+void door1Closet_door2Bath() {
     n();
 
     bathArt();
@@ -938,8 +910,7 @@ void door1Closet_door2Bath()
     outside();
 }
 
-void door1Closet_door2Out()
-{
+void door1Closet_door2Out() {
     n();
 
     windArt();
@@ -971,8 +942,7 @@ void door1Closet_door2Out()
 
 // First choice | Outside (second closed door)
 
-void door1Out()
-{
+void door1Out() {
     n();
 
     windArt();
@@ -1000,8 +970,7 @@ void door1Out()
     }
 }
 
-void door1OutLazy()
-{
+void door1OutLazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -1027,8 +996,7 @@ void door1OutLazy()
     }
 }
 
-void door1Out_door2Bath()
-{
+void door1Out_door2Bath() {
     n();
 
     bathArt();
@@ -1046,8 +1014,7 @@ void door1Out_door2Bath()
     outside();
 }
 
-void door1Out_door2Closet()
-{
+void door1Out_door2Closet() {
     n();
 
     closetArt();
@@ -1126,8 +1093,7 @@ void outside() {
     }
 }
 
-void crossroads1Lazy()
-{
+void crossroads1Lazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1, 2, or 3, corresponding to what you want to do.\n\n";
@@ -1156,13 +1122,10 @@ void crossroads1Lazy()
     }
 }
 
-// Uphill path
+// Uphill first
 
-void uphill1()
-{
+void uphill1() {
     n();
-
-    uphillArt();
 
     std::cout << "Eager for a small hike before your arrival, you turn left. You'll be only half an hour or \nso later than you planned. You don't think Nan will mind too much. The redwood forest seems \nthicker and darker than usual for some reason, but you can't quite put your finger on what. \nTaking a firmer grip on the basket and tightening your cloak, you quicken your pace.\n\n";
 
@@ -1197,8 +1160,7 @@ void uphill1()
     }
 }
 
-void uphill1Lazy()
-{
+void uphill1Lazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -1224,8 +1186,7 @@ void uphill1Lazy()
     }
 }
 
-void uphill1Talk()
-{
+void uphill1Talk() {
     n();
 
     std::cout << "\033[36m\"Hello, Sir,\"\033[0m you finally get out.\n\n";
@@ -1243,8 +1204,7 @@ void uphill1Talk()
     uphill1Bill();
 }
 
-void uphill1Silent()
-{
+void uphill1Silent() {
     n();
 
     std::cout << "In too much shock, you say nothing, blinking.\n\n";
@@ -1270,8 +1230,7 @@ void uphill1Silent()
     uphill1Bill();
 }
 
-void uphill1Bill()
-{
+void uphill1Bill() {
     std::cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be interested \nin some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand \nnew leather coat.\"\033[0m\n\n";
 
     delay7000();
@@ -1315,8 +1274,7 @@ void uphill1Bill()
     }
 }
 
-void uphill1Crossroads2Lazy()
-{
+void uphill1Crossroads2Lazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -1342,8 +1300,7 @@ void uphill1Crossroads2Lazy()
     }
 }
 
-void uphill1Downhill2()
-{
+void uphill1Downhill2() {
     n();
 
     streamArt();
@@ -1355,8 +1312,7 @@ void uphill1Downhill2()
     pauline();
 }
 
-void uphill1Flat2()
-{
+void uphill1Flat2() {
     n();
 
     streamArt();
@@ -1368,11 +1324,10 @@ void uphill1Flat2()
     pauline();
 }
 
-// Downhill path
+// Downhill first
 
-void downhill1()
-{
-    downhillArt();
+void downhill1() {
+    n();
 
     std::cout << "Eager for a small hike before your arrival, you turn right. You'll be only half an hour or \nso later than you planned. You don't think Nan will mind too much. The fog seems thicker and \ndarker than usual for some reason, but you can't quite put your finger on what. Taking a \nfirmer grip on the basket and tightening your cloak, you quicken your pace.\n\n.";
 
@@ -1407,8 +1362,7 @@ void downhill1()
     }
 }
 
-void downhill1Lazy()
-{
+void downhill1Lazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -1434,8 +1388,7 @@ void downhill1Lazy()
     }
 }
 
-void downhill1Talk()
-{
+void downhill1Talk() {
     n();
 
     std::cout << "\033[36m\"Hello, Sir,\"\033[0m you finally get out.\n\n";
@@ -1453,8 +1406,7 @@ void downhill1Talk()
     downhill1Bill();
 }
 
-void downhill1Silent()
-{
+void downhill1Silent() {
     n();
 
     std::cout << "In too much shock, you say nothing, blinking.\n\n";
@@ -1480,8 +1432,7 @@ void downhill1Silent()
     downhill1Bill();
 }
 
-void downhill1Bill()
-{
+void downhill1Bill() {
     std::cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be interested \nin some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand \nnew leather coat.\"\033[0m\n\n";
 
     delay7000();
@@ -1525,8 +1476,7 @@ void downhill1Bill()
     }
 }
 
-void downhill1Crossroads2Lazy()
-{
+void downhill1Crossroads2Lazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -1552,8 +1502,7 @@ void downhill1Crossroads2Lazy()
     }
 }
 
-void downhill1Uphill2()
-{
+void downhill1Uphill2() {
     n();
 
     streamArt();
@@ -1565,8 +1514,7 @@ void downhill1Uphill2()
     pauline();
 }
 
-void downhill1Flat2()
-{
+void downhill1Flat2() {
     n();
 
     streamArt();
@@ -1578,13 +1526,10 @@ void downhill1Flat2()
     pauline();
 }
 
-// Flat path
+// Flat first
 
-void flat1()
-{
+void flat1() {
     n();
-
-    flatArt();
 
     std::cout << "Eager to feel the sun on your face, you go straight. You'll be only half an hour or so later \nthan you planned. You don't think Nan will mind too much. Although the air is cold, the sun \nis warm, bordering on hot, and seems a bit stifling for some reason, but you can't quite put \nyour finger on what. Taking a firmer grip on the basket, you quicken your pace.\n\n";
 
@@ -1619,8 +1564,7 @@ void flat1()
     }
 }
 
-void flat1Lazy()
-{
+void flat1Lazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -1646,8 +1590,7 @@ void flat1Lazy()
     }
 }
 
-void flat1Talk()
-{
+void flat1Talk() {
     n();
 
     std::cout << "\033[36m\"Hello, Sir,\"\033[0m you finally get out.\n\n";
@@ -1665,8 +1608,7 @@ void flat1Talk()
     flat1Bill();
 }
 
-void flat1Silent()
-{
+void flat1Silent() {
     n();
 
     std::cout << "In too much shock, you say nothing, blinking.\n\n";
@@ -1692,8 +1634,7 @@ void flat1Silent()
     flat1Bill();
 }
 
-void flat1Bill()
-{
+void flat1Bill() {
     std::cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be interested \nin some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand \nnew leather coat.\"\033[0m\n\n";
 
     delay7000();
@@ -1737,8 +1678,7 @@ void flat1Bill()
     }
 }
 
-void flat1Crossroads2Lazy()
-{
+void flat1Crossroads2Lazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -1776,8 +1716,7 @@ void flat1Uphill2() {
     pauline();
 }
 
-void flat1Downhill2()
-{
+void flat1Downhill2() {
     n();
 
     streamArt();
@@ -1789,10 +1728,9 @@ void flat1Downhill2()
     pauline();
 }
 
-// Rest of story
+// Conclusion
 
-void pauline()
-{
+void pauline() {
     n();
 
     paulineArt();
@@ -1840,8 +1778,7 @@ void pauline()
     }
 }
 
-void paulineLazy()
-{
+void paulineLazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -1867,8 +1804,7 @@ void paulineLazy()
     }
 }
 
-void tell()
-{
+void tell() {
     n();
     
     std::cout << "You remember Pauline mentioning that her leather axe holster was wearing out and she'd need \na new one soon. You decide to tell her about Bill, despite his creepiness. \033[36m\"I passed by a leather dealer earlier. He called himself 'Buffalo Bill.'\"\033[0m\n\n";
@@ -1890,8 +1826,7 @@ void tell()
     nan();
 }
 
-void noTell()
-{
+void noTell() {
     n();
     
     std::cout << "You remember Pauline mentioning that her leather axe holster was wearing out and she'd need \na new one soon. That Bill guy was super creepy, though. You decide not to mention him.\n\n";
@@ -1901,8 +1836,7 @@ void noTell()
     nan();
 }
 
-void nan()
-{
+void nan() {
     std::cout << "\033[36m\"Well, I should be going. Have a good day!\"\033[0m\n\n";
 
     delay3000();
@@ -1954,8 +1888,7 @@ void nan()
     }
 }
 
-void attackLazy()
-{
+void attackLazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -1981,8 +1914,7 @@ void attackLazy()
     }
 }
 
-void attack()
-{
+void attack() {
     n();
     
     std::cout << "You lunge at Bill, grasping for the rope, but he's too quick for you. He dodges your attack, \nmanaging to slip the rope around your neck in the process. \033[31m\"Your skin will make some fine, \nfine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n\n";
@@ -1992,8 +1924,7 @@ void attack()
     paulineFTW();
 }
 
-void checkNan()
-{
+void checkNan() {
     n();
     
     std::cout << "You drop to the floor next to Nan, attempting to revive her so you both can escape. Bill comes \nup behind you and slips the rope around your neck. \033[31m\"Your skin will make some fine, fine \nleather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n\n";
@@ -2003,8 +1934,7 @@ void checkNan()
     paulineFTW();
 }
 
-void paulineFTW()
-{
+void paulineFTW() {
     std::cout << "\033[92m\"I finished up a little early and decided to join you for lunch,\"\033[0m Pauline cheerily calls out \nthrough the open door, \033[92m\"I brought my axe with me, too, in case Nan needs any fresh firewood.\"\033[0m \nShe gasps at the scene inside as she steps through the doorway. Without any time to spare, \nshe grasps her axe and brings it down hard onto Bill's skull, killing him instantly.\n\n";
 
     delay10000();
@@ -2040,8 +1970,7 @@ void paulineFTW()
     }
 }
 
-void policeLazy()
-{
+void policeLazy() {
     n();
 
     std::cout << "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n";
@@ -2067,8 +1996,7 @@ void policeLazy()
     }
 }
 
-void callPolice()
-{
+void callPolice() {
     n();
     
     std::cout << "You nod, \033[36m\"Yes, the authorities need to know.\"\033[0m\n\n";
@@ -2082,8 +2010,7 @@ void callPolice()
     end();
 }
 
-void noPolice()
-{
+void noPolice() {
     n();
     
     std::cout << "You shake your head, \033[36m\"We can't call the police. They'd never believe us!\"\033[0m\n\n";
@@ -2093,8 +2020,7 @@ void noPolice()
     end();
 }
 
-void end()
-{
+void end() {
     std::cout << "\033[34m\"Hands up; no one move!\"\033[0m A voice from the doorway calls into the house.\n\n";
 
     delay5000();
@@ -2119,15 +2045,10 @@ void end()
 }
 
 //
-//
-//
 // Main
 //
-//
-//
 
-int main()
-{
+int main() {
     titleArt();
 
     delay10000();
@@ -2137,73 +2058,46 @@ int main()
     introduction();
 
     /*
-    
     insideArt();
-
     std::cout << intro;
-
     delay20000();
-
     std::cout << introAsk;
-
     delay1500();
-
     std::cout << introChoice;
-
     int choice {};
-
     bool validInput { true };
-
     while (validInput) { // Door choices at start
         std::cin >> choice;
-
-        if (choice == 1) // Bathroom (ajar door)
-        {
+        if (choice == 1) // Bathroom (ajar door) {
             door1Bath();
-
             std::string ajar1 {
                 "You push open the ajar door and see a toilet, sink, and bathtub. You walk to the toilet, \n"
                 "sitting down in a tired, just-woken-up heap, and go about your business. Now to get dressed.\n\n"
             };
-
             std::string ajar1Ask {
                 "What would you like to do?\n\n"
             };
-
             std::string ajar1Choice {
                 "1: Open the first closed door.\n"
                 "2: Open the second closed door.\n\n" 
             };
-            
             n();
-            
             bathArt();
-
             std::cout << ajar1;
-
             delay7000();
-
             std::cout << ajar1Ask;
-
             delay1500();
-
             std::cout << ajar1Choice;
-
             // CODE TO CONTINUE THIS BRANCH HERE
             int choice {};
-            while (validInput)
-            {
+            while (validInput) {
                 std::cin >> choice;
-
                 n();
-
-                if (choice == 1)  // Closet (first closed door) | After bathroom
-                {
+                if (choice == 1)  // Closet (first closed door) | After bathroom {
                     std::string closet2 {
                         "You open the first door and assess your clothing options for the day. Before deciding, you \n"
                         "should check the weather outside.\n\n"
                     };
-
                     std::string outdoor3 {
                         "You open the second closed door, and a frigid breeze from outside whips around and up your \n"
                         "pajamas, chilling you. Heading back to the closet, you put on a pair of slacks and a \n"
@@ -2211,108 +2105,68 @@ int main()
                         "up the hood to shield your ears from the wind. You grab the basket from the stool in the \n"
                         "corner and head outside.\n\n"
                     };
-
                     n();
-
                     closetArt();
-
                     std::cout << closet2 << std::endl;
-                    
                     delay7000();
-
                     windArt();
-
                     std::cout << outdoor3 << std::endl;
-
                     delay10000();
-
                     validInput = false; 
-                }
-                else if (choice == 2) // Outside (second closed door) | After bathroom
-                {
+                } else if (choice == 2) // Outside (second closed door) | After bathroom {
                     std::string outdoor2 {
                         "You open the second door and a frigid breeze from outside whips around and up your pajamas, \n"
                         "chilling you. Maybe you should rug up before heading out."
                     };
-                    
                     std::string closet3 {
                         "You open the first closed door and assess your clothing options for the day. You put on a \n"
                         "pair of slacks and a knitted sweater. Since it's cold outside, you grab a warm woolen cloak \n"
                         "and wrap it around your shoulders, pulling up the hood to shield your ears from the wind. \n"
                         "You grab the basket from the stool in the corner and head outside.\n\n"
                     };
-                    
                     n();
-                    
                     outsideArt();
-
                     std::cout << outdoor2 << std::endl;
-
                     delay7000();
-
                     closetArt();
-
                     delay10000();
-
                     validInput = false; 
-                }
-                else
-                {
+                } else {
                     std::string ajar1lazy {
                         "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n"
                     };
-                    
                     n();
-
                     delay2000();
-
                     std::cout << ajar1lazy << std::endl;
-
                     delay1500();                
                 }
             }
-                    
         }
-
-        else if (choice == 2) // Closet (first closed door)
-        {
+        else if (choice == 2) // Closet (first closed door) {
             door1Closet();
-
             std::string closet1 {
                 "You open the first door and assess your clothing options for the day. Before deciding, \n"
                 "you really ought to get to the toilet to relieve yourself.\n\n"
             };
-
             std::string closet1Ask {
                 "What would you like to do?\n\n"
             };
-
             std::string closet1Choice {
                 "1: Push open the ajar door.\n"
                 "2: Open the second closed door.\n\n"
             };
-
             /*n();
-
             closetArt();
-
             std::cout << closet1;
-
             delay7000();
-
             std::cout << closet1Ask;
-
             delay1500();
-
             std::cout << closet1Choice;
-            
             delay1500();
-
             std::string ajarDoor {
                 "You push open the ajar door and see a toilet, sink, and bathtub. You walk to the toilet, \n"
                 "sitting down in a tired, just-woken-up heap, and go about your business. Now to get dressed.\n\n"
             };
-
             std::string ajarDoor2 {
                 "You open the second closed door, and a frigid breeze from outside whips around and up your \n"
                 "pajamas, chilling you. Heading back to the closet, you put on a pair of slacks and a \n"
@@ -2320,13 +2174,11 @@ int main()
                 "up the hood to shield your ears from the wind. You grab the basket from the stool in the \n"
                 "corner and head outside.\n\n"
             };
-
             std::string closedDoor {
                 "You open the second closed door, and a frigid breeze from outside whips around and up your \n"
                 "pajamas, chilling you. Maybe you should rug up before heading out. You need to clean yourself \n"
                 "up, too, as you've just wet yourself.\n\n"
             };
-
             std::string closedDoor2 {
                 "In a fit of disgust, you push open the ajar door so hard that it swings wildly, slamming into \n"
                 "the wall. Cringing at the sound, you peel off your wet pajamas, tossing them into the sink. \n"
@@ -2337,37 +2189,22 @@ int main()
                 "woolen cloak and wrap it around your shoulders, pulling up the hood to shield your ears \n"
                 "from the wind. You grab the basket from the stool in the corner and head outside.\n\n"
             };
-            
             makeChoice(ajarDoor, closedDoor);
-
             validInput = false;
-        }
-
-        else if (choice == 3) // Outside (second closed door)
-        {
+        } else if (choice == 3) // Outside (second closed door) {
             door1Out();
-        }
-
-        else
-        {
+        } else {
             door1Lazy();
-
             /*n();
-
             std::string closet1Lazy {
                 "You can't be a lazy daisy all day. Enter 1 or 2, corresponding to what you want to do.\n\n"
             };
-
             n();
-
             delay2000();
-
             std::cout << closet1Lazy;
-
             delay1500();
         }
     }
-
     std::string outside { "Despite the chill, the air is crisp and clear. You breathe "
             "deeply, savoring the fresh scent of nature around you. In the distance, you"
             " hear songbirds going about their merry morning gossip. A squirrel, spooked"
@@ -2384,22 +2221,13 @@ int main()
             "2: The foggy path to the right that leads downhill.\n"
             "3: The sunny, flat path straight ahead.\n\n"
         };
-
-    
-
     bool whileTrueVar2 { true };
     int choice2 {};
-
-    while (whileTrueVar2) 
-    {
+    while (whileTrueVar2) {
         std::cin >> choice2;
-
         // Uphill path
-
-        if (choice2 == 1)
-        {
+        if (choice2 == 1) {
             uphill1();
-
             std::string uphill {
             "Eager for a small hike before your arrival, you turn left. You'll be only half an hour or so later than you planned. You don't think Nan will mind too much.\n" 
             "The redwood forest seems thicker and darker than usual for some reason, but you can't quite put your finger on what. Taking a firmer grip on the basket"
@@ -2414,20 +2242,15 @@ int main()
             "2. Nothing. You're not supposed to talk to strangers.\n"
             // delay //
             };
-
             std::cout << uphill;
-
             // void kianaspath() 
             // {
                 validInput = true;
                 int kChoice {};
-                while (validInput) 
-                {
+                while (validInput) {
                     std::cin >> kChoice;
                     std::cout << "\n";
-
-                    if (kChoice == 1) 
-                    {
+                    if (kChoice == 1) {
                         std::string hi {"\033[36m\"Hello, Sir,\"\033[0m you finally get out.\n"
                         // delay //
                         "\033[31m\"And what brings you around this neck of the woods?\"\033[0m\n"
@@ -2449,9 +2272,7 @@ int main()
                         };
                         std::cout << hi << std::endl;
                         validInput = false; 
-                    }
-                    else if (kChoice == 2)
-                    {
+                    } else if (kChoice == 2) {
                         std::string meetBill {"In too much shock, you say nothing, blinking.\n"
                         // delay //
                             "\033[31m\"And what brings you around this neck of the woods?\"\033[0m\n"
@@ -2476,17 +2297,13 @@ int main()
                         };
                         std::cout << meetBill << std::endl;
                         validInput = false;    
-                    }
-                    else
-                    { 
+                    } else {
                         std::string iv {"You can't be a lazy daisy all day.\n"
                         "Enter 1 or 2, corresponding to what you want to do.\n"
                         };
                         std::cout << iv << std::endl;
-
                     }
-                }   
-            
+                }
             std::string pathQ {"Which path do you take now?\n\n"
             "1.The foggy path to the right that leads downhill.\n"
             "2.The sunny, flat path straight ahead.\n"
@@ -2495,13 +2312,10 @@ int main()
             validInput = true;
             std::cout << pathQ;
             int k2Choice {};
-            while (validInput) 
-            {
+            while (validInput) {
                 std::cin >> k2Choice;
                 std::cout << "\n";
-
-                if (k2Choice == 1) 
-                {
+                if (k2Choice == 1) {
                     std::string kPauline {"You head downhill toward the mossy stream to splash some water on your face. That Bill person weirded you out to no end.\n"
                     " The moisture from the fog feels invigorating, calming your nerves already. Reaching the stream, you put the basket down on a tree stump\n"
                     "and kneel to scoop up some cool water, splashing it on your face and smoothing down your hair.\n"
@@ -2519,8 +2333,7 @@ int main()
                     std::cout << kPauline << std::endl;
                     validInput = false; 
                 }
-                else if (k2Choice == 2)
-                {
+                else if (k2Choice == 2) {
                     std::string jPauline {"You head out along the flat path. You need a bit of sun on your face. That Bill person weirded you out to no end.\n"
                     "The moisture from the fog feels invigorating, calming your nerves already. Reaching the stream, you put the basket down on a tree stump\n"
                     "and kneel to scoop up some cool water, splashing it on your face and smoothing down your hair.\n"
@@ -2537,9 +2350,7 @@ int main()
                     };
                     std::cout << jPauline << std::endl;
                     validInput = false; 
-                }
-                else
-                { 
+                } else {
                     std::string inval {"You can't be a lazy daisy all day.\n"
                     "Enter 1 or 2, corresponding to what you want to do.\n"
                     };
@@ -2554,13 +2365,10 @@ int main()
             std::cout << mention;
             int aChoice {};
             validInput = true;
-            while (validInput) 
-            {
+            while (validInput) {
                 std::cin >> aChoice;
                 std::cout << "\n";
-
-                if (aChoice == 1)
-                {
+                if (aChoice == 1) {
                     std::string text {"You remember Pauline mentioning that her leather axe holster was wearing\n"
                     "out and she'd need a new one soon. You decide to tell her about Bill, despite his creepiness.\n"
                     "\033[36m\"I passed by a leather dealer earlier. He called himself 'Buffalo Bill.'\"\033[0m\n"
@@ -2585,9 +2393,7 @@ int main()
                 };
                 std::cout << text << std::endl;
                 validInput = false; 
-                }
-                else if (aChoice == 2)
-                {
+                } else if (aChoice == 2) {
                     std::string text {"You remember Pauline mentioning that her leather axe holster was wearing\n"
                     "out and she'd need a new one soon. That Bill guy was super creepy, though. You decide not to mention him.\n\n"
                     "\033[36m\"Well, I should be going. Have a good day!\"\033[0m\n"
@@ -2608,8 +2414,7 @@ int main()
                     std::cout << text << std::endl;
                     validInput = false; 
                 }
-                else
-                { 
+                else { 
                     std::string text {"You can't be a lazy daisy all day.\n"
                     "Enter 1 or 2, corresponding to what you want to do.\n"
                     };
@@ -2624,13 +2429,10 @@ int main()
             // delay //
             std::cout << text;
             int gChoice {};
-            while (validInput) 
-            {
+            while (validInput) {
                 std::cin >> gChoice;
                 std::cout << "\n";
-
-                if (gChoice == 1) 
-                {
+                if (gChoice == 1) {
                     std:: string text {"You lunge at Bill, grasping for the rope, but he's too quick for you. He dodges your attack, managing to slip the rope\n"
                     "around your neck in the process. \033[31m\"Your skin will make some fine, fine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n"
                     "\033[92m\"I finished up a little early and decided to join you for lunch,\"\033[0m Pauline cheerily calls out through the open door, \033[92m\"I brought my axe with me, too, in case"
@@ -2642,9 +2444,7 @@ int main()
                     };
                     std::cout << text << std::endl;
                     validInput = false; 
-                }
-                else if (gChoice == 2)
-                {
+                } else if (gChoice == 2) {
                     std::string text {"You drop to the floor next to Nan, attempting to revive her so you both can escape. Bill comes up behind you and slips the rope\n"
                     "around your neck. \033[31m\"Your skin will make some fine, fine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n"
                    "\033[92m\"I finished up a little early and decided to join you for lunch,\"\033[0m Pauline cheerily calls out through the open door, \033[92m\"I brought my axe with me, too, in case"
@@ -2656,9 +2456,7 @@ int main()
                     };
                     std::cout << text << std::endl;
                     validInput = false; 
-                }
-                else
-                { 
+                } else {
                     std::string text {"You can't be a lazy daisy all day.\n"
                     "Enter 1 or 2, corresponding to what you want to do.\n"
                     };
@@ -2673,13 +2471,10 @@ int main()
             // delay //
             std::cout << popo;
             int fChoice {};
-            while (validInput) 
-            {
+            while (validInput) {
                 std::cin >> fChoice;
                 std::cout << "\n";
-
-                if (fChoice == 1) 
-                {
+                if (fChoice == 1) {
                     std:: string text {"You nod, \033[36m\"Yes, the authorities need to know.\"\033[0m\n"
                     "Nan reaches for the telephone and begins to dial 9-1-1.\n"
                     "\033[34m\"Hands up; no one move!\"\033[0m A voice from the doorway calls into the house.\n"
@@ -2693,9 +2488,7 @@ int main()
                     };
                     std::cout << text << std::endl;
                     validInput = false; 
-                }
-                else if (fChoice == 2)
-                {
+                } else if (fChoice == 2) {
                     std::string text {"You shake your head, \033[36m\"We can't call the police. They'd never believe us!\"\033[0m\n"
                     "\033[34m\"Hands up; no one move!\"\033[0m A voice from the doorway calls into the house.\n"
                     "Several FBI agents and cops enter the house, guns drawn. A man who clearly is the head of the operation steps forward.\n"
@@ -2708,21 +2501,17 @@ int main()
                     };
                     std::cout << text << std::endl;
                     validInput = false; 
-                }
-                else
-                { 
+                } else { 
                     std::string text {"You can't be a lazy daisy all day.\n"
                     "Enter 1 or 2, corresponding to what you want to do.\n"
                     };
                     std::cout << text << std::endl;
                 }
-
             }
             // kianaspath();
             whileTrueVar2 = false;
                 }
-        else if (choice2 == 2)
-        {
+        else if (choice2 == 2) {
             std::string downhill { "Eager for a small hike before your arrival, you turn right."
                 " You'll be only half an hour or so later than you planned. You don't think "
                 "Nan will mind too much. The fog seems thicker and darker than usual for some"
@@ -2738,7 +2527,6 @@ int main()
                 // delay //
              };
             std::cout << downhill;
-
             std::string hiToBill {"\033[36m\"Hello, Sir,\"\033[0m you finally get out.\n"
                         // delay //
                         "\033[31m\"And what brings you around this neck of the woods?\"\033[0m\n"
@@ -2758,7 +2546,6 @@ int main()
                         "\033[36m\"Good day.\"\033[0m\n"
                         "Perturbed, you turn around and head back to the fork in the road.\n\n"
                         };            
-            
             std::string sayNothing {"In too much shock, you say nothing, blinking.\n"
                         // delay //
                             "\033[31m\"And what brings you around this neck of the woods?\"\033[0m\n"
@@ -2781,17 +2568,13 @@ int main()
                             "\033[36m\"Good day.\"\033[0m\n"
                             "Perturbed, you turn around and head back to the fork in the road.\n\n"
                         };
-
-            makeChoice(hiToBill, sayNothing);
-
-        
+            makeChoice(hiToBill, sayNothing);        
             std::string secondPath {
                 "Which path do you take now?\n\n"
                 "1: The shady path to the left that leads uphill.\n"
                 "2: The sunny, flat path straight ahead.\n\n"
             };
             std::cout << secondPath;
-
             std::string uphill2 { "You head uphill to the stream in the"
                 " redwood forest to splash some water on your face. That "
                 "Bill person weirded you out to no end. The moisture from the "
@@ -2810,7 +2593,6 @@ int main()
                 "\033[36m\"No worries—more for us then!\"\033[0m You break into a wide smile, and you both laugh.\n"
                     //delay//
                     };
-
             std::string flat2 {"You head out along the flat path. You need a bit "
                 "of sun on your face. That Bill person weirded you out to no end."
                 " The moisture from the fog feels invigorating, calming your nerves"
@@ -2827,17 +2609,14 @@ int main()
                 "\033[92m\"Tempting, but I want to make sure I get all my chopping done. Thanks for offering, though!\"\033[0m\n"
                 "\033[36m\"No worries—more for us then!\"\033[0m You break into a wide smile, and you both laugh.\n"
                 //delay//
-                };            
-
+                };
             makeChoice(uphill2, flat2);
-
             std::string pauline {
                 "Tell Pauline about Buffalo Bill?\n\n"
                 "1: Tell Pauline.\n"
                 "2: Don\'t tell Pauline.\n\n"
             };
             std::cout << pauline;
-
             std::string talkAboutBill {"You remember Pauline mentioning that her leather axe holster was wearing\n"
                     "out and she'd need a new one soon. You decide to tell her about Bill, despite his creepiness.\n"
                     "\033[36m\"I passed by a leather dealer earlier. He called himself 'Buffalo Bill.'\"\033[0m\n"
@@ -2860,7 +2639,6 @@ int main()
                     "causing her to fall to the floor, hitting her head and knocking her unconscious.\n"
                     // long delay //
                 };
-
             std::string doNotTalkAboutBill { "You remember Pauline mentioning that her leather axe"
                 " holster was wearing out and she'd need a new one soon. That Bill guy was super "
                 "creepy, though. You decide not to mention him.\n\n" 
@@ -2879,16 +2657,13 @@ int main()
                     "causing her to fall to the floor, hitting her head and knocking her unconscious.\n"
                     // long delay //
                 };
-
             makeChoice(talkAboutBill, doNotTalkAboutBill);
-
             std::string billAttackEvent { 
                 "What do you do?\n\n"
                 "1: Lunge at Bill.\n"
                 "2: Check on Nan.\n\n"
             };
             std::cout << billAttackEvent;
-
             std::string lungeAtBill {"You lunge at Bill, grasping for the rope, but he's too quick for you. He dodges your attack, managing to slip the rope\n"
                     "around your neck in the process. \033[31m\"Your skin will make some fine, fine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n"
                     "\033[92m\"I finished up a little early and decided to join you for lunch,\"\033[0m Pauline cheerily calls out through the open door, \033[92m\"I brought my axe with me, too, in case"
@@ -2909,14 +2684,11 @@ int main()
                     // long delay //
                     };
             makeChoice(lungeAtBill, checkOnNan);
-
             std::string callPoliceEvent {"Should you call the police?\n\n"
                 "1: Yes.\n"
                 "2: No.\n"
             };
-
             std::cout << callPoliceEvent;
-
             std::string callPolice {"You nod, \033[36m\"Yes, the authorities need to know.\"\033[0m\n"
                     "Nan reaches for the telephone and begins to dial 9-1-1.\n"
                     "\033[34m\"Hands up; no one move!\"\033[0m A voice from the doorway calls into the house.\n"
@@ -2928,7 +2700,6 @@ int main()
                     "the body.\"\033[0m He turns back to the women, \033[34m\"We need to take your statements and remove the  body, then you'll be free to go.\"\033[0m\n\n"
                     "The three women look back and forth at each other, then at Langley. \"Can we eat our lunch?\" they all say in unison.\n"
                     };
-
             std::string dontCallPolice {"You shake your head, \033[36m\"We can't call the police. They'd never believe us!\"\033[0m\n"
                     "\033[34m\"Hands up; no one move!\"\033[0m A voice from the doorway calls into the house.\n"
                     "Several FBI agents and cops enter the house, guns drawn. A man who clearly is the head of the operation steps forward.\n"
@@ -2942,14 +2713,12 @@ int main()
             // };
             makeChoice(callPolice, dontCallPolice);
             whileTrueVar2 = false;
-
         }
         else if (choice2 == 3)
         {
             // Downhill path
             whileTrueVar2 = false;
         }
-
         else
         {
             std::string invalid_choice { "You can't be a lazy daisy all day. Enter "
@@ -2958,8 +2727,9 @@ int main()
             // cycle back through choices
         }
     }
-
     */
+
+    // Meow 🐈
 
     return 0;
 }
