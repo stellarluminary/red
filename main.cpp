@@ -676,13 +676,13 @@ void policeLazy();
 
 void introduction()
 {
-    std::cout << "The rising sun slowly brightens your bedroom, lulling you from your dreams. Reluctantly, you pull yourself away from your slumber, opening your eyes a smidgen to help reacquaint yourself with the waking world. Blinking a few times to clear the sleep matter from your eyes and let your pupils adjust, you see a basket containing a bottle of juice and several sandwiches sitting on a small stool in the corner of the room. Pulling back the bedcovers and sitting up, you stretch your arms high up into the air, accompanied by a yawn.\n\n";
+    std::cout << "The rising sun slowly brightens your bedroom, lulling you from your dreams. Reluctantly, you \npull yourself away from your slumber, opening your eyes a smidgen to help reacquaint yourself \nwith the waking world. Blinking a few times to clear the sleep matter from your eyes and let \nyour pupils adjust, you see a basket containing a bottle of juice and several sandwiches \nsitting on a small stool in the corner of the room. Pulling back the bedcovers and sitting \nup, you stretch your arms high up into the air, accompanied by a yawn.\n\n";
 
     delay15000();
 
     insideArt();
 
-    std::cout << "Besides the basket on the stool and the bed you're in, the room has three doors. Two of the doors are closed. The third is open a couple of inches.\n\n\n";
+    std::cout << "Besides the basket on the stool and the bed you're in, the room has three doors. Two of the \ndoors are closed. The third is open a couple of inches.\n\n\n";
 
     delay7000();
 
@@ -761,7 +761,7 @@ void door1Bath()
 
     bathArt();
 
-    std::cout << "You push open the ajar door and see a toilet, sink, and bathtub. You walk to the toilet, sitting down in a tired, just-woken-up heap, and go about your business. Now to get dressed.\n\n\n";
+    std::cout << "You push open the ajar door and see a toilet, sink, and bathtub. You walk to the toilet, sitting \ndown in a tired, just-woken-up heap, and go about your business. Now to get dressed.\n\n\n";
 
     delay7000();
 
@@ -817,19 +817,19 @@ void door1Bath_door2Closet()
 
     closetArt();
 
-    std::cout << "You open the first closed door and assess your clothing options for the day. Before deciding, you should check the weather outside.\n\n";
+    std::cout << "You open the first closed door and assess your clothing options for the day. Before deciding, \nyou should check the weather outside.\n\n";
 
     delay7000();
 
     windArt();
 
-    std::cout << "You open the second closed door, and a frigid breeze from outside whips around and up your pajamas, chilling you.\n\n";
+    std::cout << "You open the second closed door, and a frigid breeze from outside whips around and up your \npajamas, chilling you.\n\n";
 
     delay7000();
 
     closetArt();
 
-    std::cout << "Heading back to the closet, you put on a pair of slacks and a knitted sweater. You grab a warm woolen cloak and wrap it around your shoulders, pulling up the hood to shield your ears from the wind. You grab the basket from the stool in the corner and head outside.\n\n";
+    std::cout << "Heading back to the closet, you put on a pair of slacks and a knitted sweater. You grab a warm \nwoolen cloak and wrap it around your shoulders, pulling up the hood to shield your ears from \nthe wind. You grab the basket from the stool in the corner and head outside.\n\n";
 
     delay10000();
 
@@ -863,7 +863,7 @@ void door1Closet()
 
         closetArt();
 
-        std::cout << "You open the first closed door and assess your clothing options for the day. Before deciding, you really ought to get to the toilet to relieve yourself.\n\n\n";
+        std::cout << "You open the first closed door and assess your clothing options for the day. Before deciding, \nyou really ought to get to the toilet to relieve yourself.\n\n\n";
 
         delay7000();
 
@@ -919,19 +919,19 @@ void door1Closet_door2Bath()
 
     bathArt();
 
-    std::cout << "You push open the ajar door and see a toilet, sink, and bathtub. You walk to the toilet, sitting down in a tired, just-woken-up heap, and go about your business. Now to get dressed.\n\n";
+    std::cout << "You push open the ajar door and see a toilet, sink, and bathtub. You walk to the toilet, sitting \ndown in a tired, just-woken-up heap, and go about your business. Now to get dressed.\n\n";
 
     delay7000();
 
     windArt();
 
-    std::cout << "You open the second closed door, and a frigid breeze from outside whips around and up your pajamas, chilling you.\n\n";
-    
+    std::cout << "You open the second closed door, and a frigid breeze from outside whips around and up your \npajamas, chilling you.\n\n";
+
     delay7000();
     
     closetArt();
 
-    std::cout << "Heading back to the closet, you put on a pair of slacks and a knitted sweater. You grab a warm woolen cloak and wrap it around your shoulders, pulling up the hood to shield your ears from the wind. You grab the basket from the stool in the corner and head outside.\n\n";
+    std::cout << "Heading back to the closet, you put on a pair of slacks and a knitted sweater. You grab a warm \nwoolen cloak and wrap it around your shoulders, pulling up the hood to shield your ears from \nthe wind. You grab the basket from the stool in the corner and head outside.\n\n";
 
     delay10000();
 
@@ -944,7 +944,7 @@ void door1Closet_door2Out()
 
     windArt();
 
-    std::cout << "You open the second closed door, and a frigid breeze from outside whips around and up your pajamas, chilling you. Maybe you should rug up before heading out.\n\n";
+    std::cout << "You open the second closed door, and a frigid breeze from outside whips around and up your \npajamas, chilling you. Maybe you should rug up before heading out.\n\n";
 
     delay7000();
 
@@ -956,13 +956,13 @@ void door1Closet_door2Out()
 
     bathtubArt();
 
-    std::cout << "In a fit of disgust, you push open the ajar door so hard that it swings wildly, slamming into the wall. Cringing at the sound, you peel off your wet pajamas, tossing them into the sink. You start drawing a bath while you hand-wash and hang the sodden heap of clothes. Slipping into the warm bath, you luxuriate for a few minutes before you remember the basket. You get to work scrubbing clean before getting out and drying off.\n\n";
+    std::cout << "In a fit of disgust, you push open the ajar door so hard that it swings wildly, slamming into \nthe wall. Cringing at the sound, you peel off your wet pajamas, tossing them into the sink. \nYou start drawing a bath while you hand-wash and hang the sodden heap of clothes. Slipping \ninto the warm bath, you luxuriate for a few minutes before you remember the basket. You get \nto work scrubbing clean before getting out and drying off.\n\n";
 
     delay15000();
 
     closetArt();
-    
-    std::cout << "Heading back to the closet, you put on a pair of slacks and a knitted sweater. Since it's cold outside, you grab a warm woolen cloak and wrap it around your shoulders, pulling up the hood to shield your ears from the wind. You grab the basket from the stool in the corner and head outside.\n\n";
+
+    std::cout << "Heading back to the closet, you put on a pair of slacks and a knitted sweater. Since it's cold \noutside, you grab a warm woolen cloak and wrap it around your shoulders, pulling up the \nhood to shield your ears from the wind. You grab the basket from the stool in the corner and \nhead outside.\n\n";
 
     delay10000();
 
@@ -977,7 +977,7 @@ void door1Out()
 
     windArt();
 
-    std::cout << "You open the second closed door, and a frigid breeze from outside whips around and up your pajamas, chilling you. Maybe you should rug up before heading out. You really ought to get to the toilet to relieve yourself, too.\n\n\n";
+    std::cout << "You open the second closed door, and a frigid breeze from outside whips around and up your \npajamas, chilling you. Maybe you should rug up before heading out. You really ought to get to \nthe toilet to relieve yourself, too.\n\n\n";
 
     delay7000();
 
@@ -1033,13 +1033,13 @@ void door1Out_door2Bath()
 
     bathArt();
 
-    std::cout << "You push open the ajar door and see a toilet, sink, and bathtub. You walk to the toilet, sitting down in a tired, just-woken-up heap, and go about your business. Now to get dressed.\n\n";
+    std::cout << "You push open the ajar door and see a toilet, sink, and bathtub. You walk to the toilet, sitting \ndown in a tired, just-woken-up heap, and go about your business. Now to get dressed.\n\n";
 
     delay7000();
 
     closetArt();
 
-    std::cout << "You open the first closed door and assess your clothing options for the day. You put on a pair of slacks and a knitted sweater. Since it's cold outside, you grab a warm woolen cloak and wrap it around your shoulders, pulling up the hood to shield your ears from the wind. You grab the basket from the stool in the corner and head outside.\n\n";
+    std::cout << "You open the first closed door and assess your clothing options for the day. You put on a pair \nof slacks and a knitted sweater. Since it's cold outside, you grab a warm woolen cloak and \nwrap it around your shoulders, pulling up the hood to shield your ears from the wind. You grab \nthe basket from the stool in the corner and head outside.\n\n";
 
     delay10000();
 
@@ -1064,13 +1064,13 @@ void door1Out_door2Closet()
 
     bathtubArt();
 
-    std::cout << "In a fit of disgust, you push open the ajar door so hard that it swings wildly, slamming into the wall. Cringing at the sound, you peel off your wet pajamas, tossing them into the sink. You start drawing a bath while you hand-wash and hang the sodden heap of clothes. Slipping into the warm bath, you luxuriate for a few minutes before you remember the basket. You get to work scrubbing clean before getting out and drying off.\n\n";
+    std::cout << "In a fit of disgust, you push open the ajar door so hard that it swings wildly, slamming into \nthe wall. Cringing at the sound, you peel off your wet pajamas, tossing them into the sink. \nYou start drawing a bath while you hand-wash and hang the sodden heap of clothes. Slipping \ninto the warm bath, you luxuriate for a few minutes before you remember the basket. You get \nto work scrubbing clean before getting out and drying off.\n\n";
 
     delay15000();
 
     closetArt();
 
-    std::cout << "Heading back to the closet, you put on a pair of slacks and a knitted sweater. Since it's cold outside, you grab a warm woolen cloak and wrap it around your shoulders, pulling up the hood to shield your ears from the wind. You grab the basket from the stool in the corner and head outside.\n\n";
+    std::cout << "Heading back to the closet, you put on a pair of slacks and a knitted sweater. Since it's cold \noutside, you grab a warm woolen cloak and wrap it around your shoulders, pulling up the \nhood to shield your ears from the wind. You grab the basket from the stool in the corner and \nhead outside.\n\n";
 
     delay10000();
 
@@ -1082,7 +1082,7 @@ void door1Out_door2Closet()
 void outside() {
     outsideArt();
 
-    std::cout << "Despite the chill, the air is crisp and clear. You breathe deeply, savoring the fresh scent of nature around you. In the distance, you hear songbirds going about their merry morning gossip. A squirrel, spooked by your appearance, dashes across the path and scurries up a tree. Soon, you come to a fork in the road.\n\n";
+    std::cout << "Despite the chill, the air is crisp and clear. You breathe deeply, savoring the fresh scent \nof nature around you. In the distance, you hear songbirds going about their merry morning \ngossip. A squirrel, spooked by your appearance, dashes across the path and scurries up a \ntree. Soon, you come to a fork in the road.\n\n";
 
     delay10000();
 
@@ -1164,7 +1164,7 @@ void uphill1()
 
     uphillArt();
 
-    std::cout << "Eager for a small hike before your arrival, you turn left. You'll be only half an hour or so later than you planned. You don't think Nan will mind too much. The redwood forest seems thicker and darker than usual for some reason, but you can't quite put your finger on what. Taking a firmer grip on the basket and tightening your cloak, you quicken your pace.\n\n";
+    std::cout << "Eager for a small hike before your arrival, you turn left. You'll be only half an hour or \nso later than you planned. You don't think Nan will mind too much. The redwood forest seems \nthicker and darker than usual for some reason, but you can't quite put your finger on what. \nTaking a firmer grip on the basket and tightening your cloak, you quicken your pace.\n\n";
 
     delay15000();
 
@@ -1174,7 +1174,7 @@ void uphill1()
 
     billArt();
 
-    std::cout << "Gasping and practically jumping out of your skin, you whip around to face a tall, skinny man standing next to a cart of leather goods. You could have sworn he wasn't there a moment ago—you walked right past him and would have seen him.\n\n\n";
+    std::cout << "Gasping and practically jumping out of your skin, you whip around to face a tall, skinny man \nstanding next to a cart of leather goods. You could have sworn he wasn't there a moment ago\u2014you \nwalked right past him and would have seen him.\n\n\n";
 
     delay7000();
 
@@ -1272,7 +1272,7 @@ void uphill1Silent()
 
 void uphill1Bill()
 {
-    std::cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be interested in some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand new leather coat.\"\033[0m\n\n";
+    std::cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be interested \nin some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand \nnew leather coat.\"\033[0m\n\n";
 
     delay7000();
 
@@ -1348,7 +1348,7 @@ void uphill1Downhill2()
 
     streamArt();
 
-    std::cout << "You head downhill toward the mossy stream to splash some water on your face. That Bill person weirded you out to no end. The moisture from the fog feels invigorating, calming your nerves already. Reaching the stream, you put the basket down on a tree stump and kneel to scoop up some cool water, splashing it on your face and smoothing down your hair. Over the sound of the stream, you can hear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, you decide to head towards Pauline to say hi.\n\n";
+    std::cout << "You head downhill toward the mossy stream to splash some water on your face. That Bill person \nweirded you out to no end. The moisture from the fog feels invigorating, calming your nerves \nalready. Reaching the stream, you put the basket down on a tree stump and kneel to scoop up \nsome cool water, splashing it on your face and smoothing down your hair. Over the sound of the \nstream, you can hear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, \nyou decide to head towards Pauline to say hi.\n\n";
 
     delay15000();
 
@@ -1361,7 +1361,7 @@ void uphill1Flat2()
 
     streamArt();
 
-    std::cout << "You head out along the flat path. You need a bit of sun on your face. That Bill person weirded you out to no end. The sun's warmth feels invigorating, calming your nerves already. Reaching a stream, you put the basket down on a tree stump and kneel to scoop up some cool water, splashing it on your face and smoothing down your hair. Over the sound of the stream, you can hear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, you decide to head towards Pauline to say hi.\n\n";
+    std::cout << "You head out along the flat path. You need a bit of sun on your face. That Bill person weirded \nyou out to no end. The sun's warmth feels invigorating, calming your nerves already. Reaching \na stream, you put the basket down on a tree stump and kneel to scoop up some cool water, \nsplashing it on your face and smoothing down your hair. Over the sound of the stream, you can \nhear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, you decide to \nhead towards Pauline to say hi.\n\n";
 
     delay15000();
 
@@ -1374,7 +1374,7 @@ void downhill1()
 {
     downhillArt();
 
-    std::cout << "Eager for a small hike before your arrival, you turn right. You'll be only half an hour or so later than you planned. You don't think Nan will mind too much. The fog seems thicker and darker than usual for some reason, but you can't quite put your finger on what. Taking a firmer grip on the basket and tightening your cloak, you quicken your pace.\n\n.";
+    std::cout << "Eager for a small hike before your arrival, you turn right. You'll be only half an hour or \nso later than you planned. You don't think Nan will mind too much. The fog seems thicker and \ndarker than usual for some reason, but you can't quite put your finger on what. Taking a \nfirmer grip on the basket and tightening your cloak, you quicken your pace.\n\n.";
 
     delay15000();
 
@@ -1384,7 +1384,7 @@ void downhill1()
 
     billArt();
 
-    std::cout << "Gasping and practically jumping out of your skin, you whip around to face a tall, skinny man standing next to a cart of leather goods. You could have sworn he wasn't there a moment ago—you walked right past him and would have seen him.\n\n\n";
+    std::cout << "Gasping and practically jumping out of your skin, you whip around to face a tall, skinny man \nstanding next to a cart of leather goods. You could have sworn he wasn't there a moment ago\u2014you \nwalked right past him and would have seen him.\n\n\n";
 
     delay7000();
 
@@ -1482,7 +1482,7 @@ void downhill1Silent()
 
 void downhill1Bill()
 {
-    std::cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be interested in some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand new leather coat.\"\033[0m\n\n";
+    std::cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be interested \nin some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand \nnew leather coat.\"\033[0m\n\n";
 
     delay7000();
 
@@ -1558,7 +1558,7 @@ void downhill1Uphill2()
 
     streamArt();
 
-    std::cout << "You head uphill to the stream in the redwood forest to splash some water on your face. That Bill person weirded you out to no end. The scent of the redwoods feels invigorating, calming your nerves already. Reaching the stream, you put the basket down on a tree stump and kneel to scoop up some cool water, splashing it on your face and smoothing down your hair. Over the sound of the stream, you can hear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, you decide to head towards Pauline to say hi.\n\n";
+    std::cout << "You head uphill to the stream in the redwood forest to splash some water on your face. That \nBill person weirded you out to no end. The scent of the redwoods feels invigorating, calming \nyour nerves already. Reaching the stream, you put the basket down on a tree stump and kneel to \nscoop up some cool water, splashing it on your face and smoothing down your hair. Over the \nsound of the stream, you can hear someone chopping wood nearby. Pauline Bunyan must be at \nwork. Refreshed, you decide to head towards Pauline to say hi.\n\n";
 
     delay15000();
 
@@ -1571,7 +1571,7 @@ void downhill1Flat2()
 
     streamArt();
 
-    std::cout << "You head out along the flat path. You need a bit of sun on your face. That Bill person weirded you out to no end. The sun's warmth feels invigorating, calming your nerves already. Reaching a stream, you put the basket down on a tree stump and kneel to scoop up some cool water, splashing it on your face and smoothing down your hair. Over the sound of the stream, you can hear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, you decide to head towards Pauline to say hi.\n\n";
+    std::cout << "You head out along the flat path. You need a bit of sun on your face. That Bill person weirded \nyou out to no end. The sun's warmth feels invigorating, calming your nerves already. Reaching \na stream, you put the basket down on a tree stump and kneel to scoop up some cool water, \nsplashing it on your face and smoothing down your hair. Over the sound of the stream, you can \nhear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, you decide to \nhead towards Pauline to say hi.\n\n";
 
     delay15000();
 
@@ -1586,7 +1586,7 @@ void flat1()
 
     flatArt();
 
-    std::cout << "Eager to feel the sun on your face, you go straight. You'll be only half an hour or so later than you planned. You don't think Nan will mind too much. Although the air is cold, the sun is warm, bordering on hot, and seems a bit stifling for some reason, but you can't quite put your finger on what. Taking a firmer grip on the basket, you quicken your pace.\n\n";
+    std::cout << "Eager to feel the sun on your face, you go straight. You'll be only half an hour or so later \nthan you planned. You don't think Nan will mind too much. Although the air is cold, the sun \nis warm, bordering on hot, and seems a bit stifling for some reason, but you can't quite put \nyour finger on what. Taking a firmer grip on the basket, you quicken your pace.\n\n";
 
     delay15000();
 
@@ -1596,7 +1596,7 @@ void flat1()
 
     billArt();
 
-    std::cout << "Gasping and practically jumping out of your skin, you whip around to face a tall, skinny man standing next to a cart of leather goods. You could have sworn he wasn't there a moment ago—you walked right past him and would have seen him.\n\n\n";
+    std::cout << "Gasping and practically jumping out of your skin, you whip around to face a tall, skinny man \nstanding next to a cart of leather goods. You could have sworn he wasn't there a moment ago\u2014you \nwalked right past him and would have seen him.\n\n\n";
 
     delay7000();
 
@@ -1694,7 +1694,7 @@ void flat1Silent()
 
 void flat1Bill()
 {
-    std::cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be interested in some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand new leather coat.\"\033[0m\n\n";
+    std::cout << "\033[31m\"Lovely! My name is Ted Levine, but everyone calls me 'Buffalo Bill.' Might you be interested \nin some of my wares? Your poor cloak looks tired and ratty. You would look divine in a brand \nnew leather coat.\"\033[0m\n\n";
 
     delay7000();
 
@@ -1769,7 +1769,7 @@ void flat1Uphill2() {
 
     streamArt();
 
-    std::cout << "You head uphill to the stream in the redwood forest to splash some water on your face. That Bill person weirded you out to no end. The scent of the redwoods feels invigorating, calming your nerves already. Reaching the stream, you put the basket down on a tree stump and kneel to scoop up some cool water, splashing it on your face and smoothing down your hair. Over the sound of the stream, you can hear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, you decide to head towards Pauline to say hi.\n\n";
+    std::cout << "You head uphill to the stream in the redwood forest to splash some water on your face. That \nBill person weirded you out to no end. The scent of the redwoods feels invigorating, calming \nyour nerves already. Reaching the stream, you put the basket down on a tree stump and kneel to \nscoop up some cool water, splashing it on your face and smoothing down your hair. Over the \nsound of the stream, you can hear someone chopping wood nearby. Pauline Bunyan must be at \nwork. Refreshed, you decide to head towards Pauline to say hi.\n\n";
 
     delay15000();
 
@@ -1782,7 +1782,7 @@ void flat1Downhill2()
 
     streamArt();
 
-    std::cout << "You head downhill toward the mossy stream to splash some water on your face. That Bill person weirded you out to no end. The moisture from the fog feels invigorating, calming your nerves already. Reaching the stream, you put the basket down on a tree stump and kneel to scoop up some cool water, splashing it on your face and smoothing down your hair. Over the sound of the stream, you can hear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, you decide to head towards Pauline to say hi.\n\n";
+    std::cout << "You head downhill toward the mossy stream to splash some water on your face. That Bill person \nweirded you out to no end. The moisture from the fog feels invigorating, calming your nerves \nalready. Reaching the stream, you put the basket down on a tree stump and kneel to scoop up \nsome cool water, splashing it on your face and smoothing down your hair. Over the sound of the \nstream, you can hear someone chopping wood nearby. Pauline Bunyan must be at work. Refreshed, \nyou decide to head towards Pauline to say hi.\n\n";
 
     delay15000();
 
@@ -1817,7 +1817,7 @@ void pauline()
 
     delay3000();
 
-    std::cout << "\033[36m\"No worries—more for us then!\"\033[0m You break into a wide smile, and you both laugh.\n\n\n";
+    std::cout << "\033[36m\"No worries\u2014more for us then!\"\033[0m You break into a wide smile, and you both laugh.\n\n\n";
 
     delay3000();
 
@@ -1871,7 +1871,7 @@ void tell()
 {
     n();
     
-    std::cout << "You remember Pauline mentioning that her leather axe holster was wearing out and she'd need a new one soon. You decide to tell her about Bill, despite his creepiness. \033[36m\"I passed by a leather dealer earlier. He called himself 'Buffalo Bill.'\"\033[0m\n\n";
+    std::cout << "You remember Pauline mentioning that her leather axe holster was wearing out and she'd need \na new one soon. You decide to tell her about Bill, despite his creepiness. \033[36m\"I passed by a leather dealer earlier. He called himself 'Buffalo Bill.'\"\033[0m\n\n";
 
     delay7000();
 
@@ -1879,7 +1879,7 @@ void tell()
 
     delay3000();
 
-    std::cout << "\033[36m\"I know, right? He seemed super creepy, but I know you've been looking for a new holster for your axe. He might have something that will work.\"\033[0m\n\n";
+    std::cout << "\033[36m\"I know, right? He seemed super creepy, but I know you've been looking for a new holster for \nyour axe. He might have something that will work.\"\033[0m\n\n";
 
     delay5000();
 
@@ -1894,7 +1894,7 @@ void noTell()
 {
     n();
     
-    std::cout << "You remember Pauline mentioning that her leather axe holster was wearing out and she'd need a new one soon. That Bill guy was super creepy, though. You decide not to mention him.\n\n";
+    std::cout << "You remember Pauline mentioning that her leather axe holster was wearing out and she'd need \na new one soon. That Bill guy was super creepy, though. You decide not to mention him.\n\n";
 
     delay7000();
 
@@ -1917,21 +1917,21 @@ void nan()
 
     nanhouseArt();
 
-    std::cout << "Breaking into a light jog, you venture back to the crossroads and take the last path. You're eager to see Nan and eat some lunch; all that hiking and chatting built up an appetite, and now you're running a little bit late. Unbeknownst to you, Bill had been following you the whole time.\n\n";
+    std::cout << "Breaking into a light jog, you venture back to the crossroads and take the last path. You're \neager to see Nan and eat some lunch; all that hiking and chatting built up an appetite, and \nnow you're running a little bit late. Unbeknownst to you, Bill had been following you the \nwhole time.\n\n";
 
     delay10000();
 
     nanArt();
 
-    std::cout << "Reaching Nan's, you knock on the door. Nan opens the door and greets you with a warm hug. \n\033[95m\"It's so good to see you, but what kept you, my little Red Robin?\"\033[0m\n\n";
+    std::cout << "Reaching Nan's, you knock on the door. Nan opens the door and greets you with a warm hug. \033[95m\"It's \nso good to see you, but what kept you, my little Red Robin?\"\033[0m\n\n";
 
     delay7000();
 
-    std::cout << "\033[92m\"I went for a little bit of a hike and ran into a creepy leather dealer and also Pauline. She says 'Hi' by the way.\"\033[0m\n\n";
+    std::cout << "\033[92m\"I went for a little bit of a hike and ran into a creepy leather dealer and also Pauline. She \nsays 'Hi' by the way.\"\033[0m\n\n";
 
     delay5000();
 
-    std::cout << "\033[95m\"What a busy morning! Well, you're here now; let's eat the lunch you bro\u2014\"\033[0m Before Nan can finish, Bill breaks down the door, brandishing a rope fashioned into a noose. He kicks Nan squarely in the chest, causing her to fall to the floor, hitting her head and knocking her unconscious.\n\n\n";
+    std::cout << "\033[95m\"What a busy morning! Well, you're here now; let's eat the lunch you bro\u2014\"\033[0m Before Nan can finish, \nBill breaks down the door, brandishing a rope fashioned into a noose. He kicks Nan squarely \nin the chest, causing her to fall to the floor, hitting her head and knocking her unconscious.\n\n\n";
 
     delay15000();
 
@@ -1985,7 +1985,7 @@ void attack()
 {
     n();
     
-    std::cout << "You lunge at Bill, grasping for the rope, but he's too quick for you. He dodges your attack, managing to slip the rope around your neck in the process. \033[31m\"Your skin will make some fine, fine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n\n";
+    std::cout << "You lunge at Bill, grasping for the rope, but he's too quick for you. He dodges your attack, \nmanaging to slip the rope around your neck in the process. \033[31m\"Your skin will make some fine, \nfine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n\n";
 
     delay10000();
 
@@ -1996,7 +1996,7 @@ void checkNan()
 {
     n();
     
-    std::cout << "You drop to the floor next to Nan, attempting to revive her so you both can escape. Bill comes up behind you and slips the rope around your neck. \033[31m\"Your skin will make some fine, fine leather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n\n";
+    std::cout << "You drop to the floor next to Nan, attempting to revive her so you both can escape. Bill comes \nup behind you and slips the rope around your neck. \033[31m\"Your skin will make some fine, fine \nleather,\"\033[0m Bill sneers as he strangles you, your vision going splotchy.\n\n";
 
     delay10000();
 
@@ -2005,7 +2005,7 @@ void checkNan()
 
 void paulineFTW()
 {
-    std::cout << "\033[92m\"I finished up a little early and decided to join you for lunch,\"\033[0m Pauline cheerily calls out through the open door, \033[92m\"I brought my axe with me, too, in case Nan needs any fresh firewood.\"\033[0m She gasps at the scene inside as she steps through the doorway. Without any time to spare, she grasps her axe and brings it down hard onto Bill's skull, killing him instantly.\n\n";
+    std::cout << "\033[92m\"I finished up a little early and decided to join you for lunch,\"\033[0m Pauline cheerily calls out \nthrough the open door, \033[92m\"I brought my axe with me, too, in case Nan needs any fresh firewood.\"\033[0m \nShe gasps at the scene inside as she steps through the doorway. Without any time to spare, \nshe grasps her axe and brings it down hard onto Bill's skull, killing him instantly.\n\n";
 
     delay10000();
 
@@ -2013,7 +2013,7 @@ void paulineFTW()
 
     delay10000();
 
-    std::cout << "No longer deprived of air, you collapse to the floor, catching your breath. Nan regains consciousness and looks up at Pauline. \033[95m\"Thank goodness you came. We'd be goners for sure.\"\033[0m\n\n";
+    std::cout << "No longer deprived of air, you collapse to the floor, catching your breath. Nan regains \nconsciousness and looks up at Pauline. \033[95m\"Thank goodness you came. We'd be goners for sure.\"\033[0m\n\n";
 
     delay7000();
 
@@ -2101,17 +2101,17 @@ void end()
 
     langleyArt();
 
-    std::cout << "\033[34m\"I'm Detective Langley,\"\033[0m the agent who spoke before says. \033[34m\"I see you've met 'Buffalo Bill.' We've been tailing him across state lines for months and were minutes behind him when he entered this house. On behalf of the Bureau, thank you. You potentially saved countless future victims of his. This is a clear-cut case of self-defense; you may lower your hands.\"\033[0m\n\n";
+    std::cout << "\033[34m\"I'm Detective Langley,\"\033[0m the agent who spoke before says. \033[34m\"I see you've met 'Buffalo Bill.' \nWe've been tailing him across state lines for months and were minutes behind him when \nhe entered this house. On behalf of the Bureau, thank you. You potentially saved countless \nfuture victims of his. This is a clear-cut case of self-defense; you may lower your hands.\"\033[0m\n\n";
 
     delay15000();
 
-    std::cout << "Langley reaches for his radio. \033[34m\"Dispatch, this is Langley. Suspect neutralized and scene secure. Notify the coroner—we need to transport the body.\"\033[0m He turns back to the women, \033[34m\"We need to take your statements and remove the  body, then you'll be free to go.\"\033[0m\n\n";
+    std::cout << "Langley reaches for his radio. \033[34m\"Dispatch, this is Langley. Suspect neutralized and \nscene secure. Notify the coroner\u2014we need to transport the body.\"\033[0m He turns back to the women, \n\033[34m\"We need to take your statements and remove the  body, then you'll be free to go.\"\033[0m\n\n";
 
     delay7000();
 
     trioArt();
 
-    std::cout << "The three women look back and forth at each other, then at Langley. \"Can we eat our lunch?\" they all say in unison.\n\n\n";
+    std::cout << "The three women look back and forth at each other, then at Langley. \"Can we eat our lunch?\" \nthey all say in unison.\n\n\n";
 
     delay10000();
 
